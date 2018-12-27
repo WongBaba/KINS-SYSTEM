@@ -1,0 +1,415 @@
+﻿<!-- saved from url=(0063)http://www.121665.com/index.php/Home/Course/category/cid/0.html -->
+<html lang="zh_CN">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>金视照明官网-运营课程学习基地</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link href="./ClassCenter/bootstrap.css" rel="stylesheet">
+    <link href="./ClassCenter/main.css" rel="stylesheet">
+    <script src="../../JS/jquery-2.0.0.js"></script>
+    <style type="text/css"></style>
+    <script>
+        $(function () {
+            $(".course-img a").click(function () {
+                window.open("ClassSchedule.html?class="+$(this).attr("tag"));
+            });
+        })
+    </script>
+</head>
+<body class="es-main-theme es-nav-default light-homepage">
+    <div class="es-wrap">
+        <!-- 导航 -->
+        <!--<header class="light-header">
+            <nav class="navbar navbar-inverse light-navbar light-navbar-transparent navbar-fixed-top">
+                <div class="navbar-headers">
+                    <a tag="http://www.121665.com/" class="navbar-brand">
+                        金视照明
+                    </a>
+                    <ul class="nav navbar-nav hidden-xs hidden-sm">
+                        <li class="nav-list">
+                            <a tag="http://www.121665.com/">
+                                首页
+                            </a>
+                        </li>
+                        <li class="dropdown nav-list">
+                            <a tag="http://www.121665.com/index.php/Home/Course/category/cid/0.html" class="dropdown-toggle">
+                                课程中心
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navbar-collapse pull-right">
+                    <ul class="nav user-nav mrxl" id="min-hid">
+                        <li>
+                            <a tag="http://www.121665.com/index.php/Home/Index/login.html">
+                                登录
+                            </a>
+                        </li>
+                        <li>
+                            <a tag="http://www.121665.com/index.php/Home/Index/register.html">注册</a>
+                        </li>
+
+                        <script>
+                            $(document).ready(function () {
+
+
+                                $("#nav-fir li a").mouseover(function () {
+                                    $("#nav-fir li a").css("color", "#333");
+                                    $(this).css("color", "#ffa955");
+                                })
+
+                                $("#nav-fir li a").mouseout(function () {
+                                    $(this).css("color", "#333");
+                                })
+                                //导航栏点击菜单弹框
+                                $(".vip-cou").on("click", "", function (e) {
+                                    if ($(".vip-nav").css("display") == "none") {
+                                        $(".vip-nav").show();
+                                    } else {
+                                        $(".vip-nav").hide();
+                                    }
+                                    $(document).one("click", function () {
+                                        $(".vip-nav").hide();
+                                    });
+                                    $(".ren-vip").hide();
+                                    $(".she-nav").hide();
+                                    e.stopPropagation();
+                                })
+                                $(".vip-nav").on("click", function (e) {
+                                    e.stopPropagation();
+                                });
+
+                                $(".ren-cou").on("click", "", function (e) {
+                                    if ($(".ren-vip").css("display") == "none") {
+                                        $(".ren-vip").show();
+                                    } else {
+                                        $(".ren-vip").hide();
+                                    }
+                                    $(document).one("click", function () {
+                                        $(".ren-vip").hide();
+                                    });
+                                    $(".vip-nav").hide();
+                                    $(".she-nav").hide();
+                                    e.stopPropagation();
+                                })
+                                $(".ren-vip").on("click", function (e) {
+                                    e.stopPropagation();
+                                });
+
+                                $(".she-cou").on("click", "", function (e) {
+                                    if ($(".she-nav").css("display") == "none") {
+                                        $(".she-nav").show();
+                                    } else {
+                                        $(".she-nav").hide();
+                                    }
+                                    $(document).one("click", function () {
+                                        $(".she-nav").hide();
+                                    });
+                                    $(".vip-nav").hide();
+                                    $(".ren-vip").hide();
+                                    e.stopPropagation();
+                                })
+                                $(".she-nav").on("click", function (e) {
+                                    e.stopPropagation();
+                                });
+                                //导航点击结束
+                                $(".show-t").click(function () {
+                                    $("#ul-par").hide();
+                                    $("#ul-pap").show();
+                                    $(this).css("color", "#ffb28");
+                                    $(this).prev().css("color", "#333");
+                                })
+
+                                $(".show-m").click(function () {
+                                    $("#ul-par").show();
+                                    $("#ul-pap").hide();
+                                    $(this).css("color", "#ffb28");
+                                    $(this).next().css("color", "#333");
+                                })
+
+
+                                $(".rig-thr").mouseover(function () {
+                                    $(".r-thr").show();
+                                    $(this).find("img").first().attr("src", "/images/index/book.png");
+                                })
+                                $(".rig-thr").mouseout(function () {
+                                    $(".r-thr").hide();
+                                    $(this).find("img").first().attr("src", "/images/img/phone-1.png");
+                                })
+
+                                $(".my-cen").mouseover(function () {
+                                    var src = $(this).find("img").attr("src");
+                                    var news = src.substring(0, 19) + "old.png";
+                                    $(this).find("img").attr("src", news);
+                                })
+                                $(".my-cen").mouseout(function () {
+                                    var src = $(this).find("img").attr("src");
+                                    var news = src.substring(0, 19) + ".png";
+                                    $(this).find("img").attr("src", news);
+                                })
+                            })
+
+                        </script>
+
+                    </ul>
+
+
+                </div>
+            </nav>
+        </header>-->
+        <!-- # 导航 -->
+
+        <div class="light-title">
+            <h2>课程列表</h2>
+        </div>
+        <!-- # 课程 -->
+        <section class="light-course light-section" id="light-course-list-section">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-4 col-xs-6">
+                        <div class="light-course-item">
+                            <div class="course-img">
+                                <a tag="标题优化课程">
+                                    <img src="./ClassCenter/092901d26125614168.jpeg" alt="" class="img-responsive thumb img-full">
+                                </a>
+                                <div class="mask hidden-sm hidden-xs">
+                                    <a class="btn btn-primary btn-md" tag="基础运营班">学习课程</a>
+                                </div>
+                            </div>
+                            <div class="course-info ">
+                                <div class="title clearfix">
+                                    <a tag="标题优化课程" title="标题优化课程">标题优化课程</a>
+                                </div>
+                                <div class="metas clearfix">
+                                    <span class="time pull-right hidden-sm hidden-xs">发布时间：16-10-05 </span>
+                                    <span class="view prm">学习人数：2224 </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div><div class="col-md-4 col-xs-6">
+                        <div class="light-course-item">
+                            <div class="course-img">
+                                <a tag="直通车课程">
+                                    <img src="./ClassCenter/092901d26125614168.jpeg" alt="" class="img-responsive thumb img-full">
+                                </a>
+                                <div class="mask hidden-sm hidden-xs">
+                                    <a class="btn btn-primary btn-md" tag="直通车课程">学习课程</a>
+                                </div>
+                            </div>
+                            <div class="course-info ">
+                                <div class="title clearfix">
+                                    <a tag="直通车课程" title="直通车课程">直通车课程</a>
+                                </div>
+                                <div class="metas clearfix">
+                                    <span class="time pull-right hidden-sm hidden-xs">发布时间：16-10-05 </span>
+                                    <span class="view prm">学习人数：2224 </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="light-course-item">
+                            <div class="course-img">
+                                <a tag="推广班第三期（5月份）">
+                                    <img src="./ClassCenter/0928077d55c6565313.jpeg" alt="" class="img-responsive thumb img-full">
+                                </a>
+                                <div class="mask hidden-sm hidden-xs">
+                                    <a class="btn btn-primary btn-md" tag="推广班第三期(2016-5月)">学习课程</a>
+                                </div>
+                            </div>
+                            <div class="course-info ">
+                                <div class="title clearfix">
+                                    <a tag="推广班第三期(2016-5月)" title="推广班第三期（5月份）">推广班第三期（5月份）</a>
+                                </div>
+                                <div class="metas clearfix">
+                                    <span class="time pull-right hidden-sm hidden-xs">发布时间：16-10-05 </span>
+                                    <span class="view prm">学习人数：2189 </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div><div class="col-md-4 col-xs-6">
+                        <div class="light-course-item">
+                            <div class="course-img">
+                                <a tag="基础运营班">
+                                    <img src="./ClassCenter/092901d26125614168.jpeg" alt="" class="img-responsive thumb img-full">
+                                </a>
+                                <div class="mask hidden-sm hidden-xs">
+                                    <a class="btn btn-primary btn-md" tag="基础运营班">学习课程</a>
+                                </div>
+                            </div>
+                            <div class="course-info ">
+                                <div class="title clearfix">
+                                    <a tag="基础运营班" title="基础运营班">基础运营班</a>
+                                </div>
+                                <div class="metas clearfix">
+                                    <span class="time pull-right hidden-sm hidden-xs">发布时间：16-10-05 </span>
+                                    <span class="view prm">学习人数：2224 </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div><div class="col-md-4 col-xs-6">
+                        <div class="light-course-item">
+                            <div class="course-img">
+                                <a tag="高级班第三期-肖潇">
+                                    <img src="./ClassCenter/221706293220635820.jpg" alt="" class="img-responsive thumb img-full">
+                                </a>
+                                <div class="mask hidden-sm hidden-xs">
+                                    <a class="btn btn-primary btn-md" tag="高级班第三期-肖潇">学习课程</a>
+                                </div>
+                            </div>
+                            <div class="course-info ">
+                                <div class="title clearfix">
+                                    <a tag="高级班第三期-肖潇" title="高级班课程">高级班第三期-肖潇</a>
+                                </div>
+                                <div class="metas clearfix">
+                                    <span class="time pull-right hidden-sm hidden-xs">发布时间：16-10-05 </span>
+                                    <span class="view prm">学习人数：3070 </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div><div class="col-md-4 col-xs-6">
+                        <div class="light-course-item">
+                            <div class="course-img">
+                                <a tag="太子高级运营课">
+                                    <img src="./ClassCenter/092901d26125614168.jpeg" alt="" class="img-responsive thumb img-full">
+                                </a>
+                                <div class="mask hidden-sm hidden-xs">
+                                    <a class="btn btn-primary btn-md" tag="太子高级运营课">学习课程</a>
+                                </div>
+                            </div>
+                            <div class="course-info ">
+                                <div class="title clearfix">
+                                    <a tag="太子高级运营课" title="太子高级运营课">太子高级运营课</a>
+                                </div>
+                                <div class="metas clearfix">
+                                    <span class="time pull-right hidden-sm hidden-xs">发布时间：16-10-05 </span>
+                                    <span class="view prm">学习人数：1498 </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div><div class="col-md-4 col-xs-6">
+                        <div class="light-course-item">
+                            <div class="course-img">
+                                <a tag="末宝班二十三期">
+                                    <img src="./ClassCenter/110154266cbe939379.jpg" alt="" class="img-responsive thumb img-full">
+                                </a>
+                                <div class="mask hidden-sm hidden-xs">
+                                    <a class="btn btn-primary btn-md" tag="末宝班二十三期">学习课程</a>
+                                </div>
+                            </div>
+                            <div class="course-info ">
+                                <div class="title clearfix">
+                                    <a tag="末宝班二十三期" title="末宝班二十三期">末宝班二十三期</a>
+                                </div>
+                                <div class="metas clearfix">
+                                    <span class="time pull-right hidden-sm hidden-xs">发布时间：16-10-05 </span>
+                                    <span class="view prm">学习人数：3003 </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div><div class="col-md-4 col-xs-6">
+                        <div class="light-course-item">
+                            <div class="course-img">
+                                <a tag="末宝班末氏R计划">
+                                    <img src="./ClassCenter/15064444fee2131681.jpg" alt="" class="img-responsive thumb img-full">
+                                </a>
+                                <div class="mask hidden-sm hidden-xs">
+                                    <a class="btn btn-primary btn-md" tag="末宝班末氏R计划">学习课程</a>
+                                </div>
+                            </div>
+                            <div class="course-info ">
+                                <div class="title clearfix">
+                                    <a tag="末宝班末氏R计划" title="末宝班末氏R计划">末宝班末氏R计划</a>
+                                </div>
+                                <div class="metas clearfix">
+                                    <span class="time pull-right hidden-sm hidden-xs">发布时间：16-10-05 </span>
+                                    <span class="view prm">学习人数：1498 </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div><div class="col-md-4 col-xs-6">
+                        <div class="light-course-item">
+                            <div class="course-img">
+                                <a tag="末宝班二十二期">
+                                    <img src="./ClassCenter/103020cedcfc667408.jpg" alt="" class="img-responsive thumb img-full">
+                                </a>
+                                <div class="mask hidden-sm hidden-xs">
+                                    <a class="btn btn-primary btn-md" tag="末宝班二十二期">学习课程</a>
+                                </div>
+                            </div>
+                            <div class="course-info ">
+                                <div class="title clearfix">
+                                    <a tag="末宝班二十二期" title="末宝班二十二期">末宝班二十二期</a>
+                                </div>
+                                <div class="metas clearfix">
+                                    <span class="time pull-right hidden-sm hidden-xs">发布时间：16-10-05 </span>
+                                    <span class="view prm">学习人数：2704 </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div><div class="col-md-4 col-xs-6">
+                        <div class="light-course-item">
+                            <div class="course-img">
+                                <a tag="末宝A计划">
+                                    <img src="./ClassCenter/092901d26125614168.jpeg" alt="" class="img-responsive thumb img-full">
+                                </a>
+                                <div class="mask hidden-sm hidden-xs">
+                                    <a class="btn btn-primary btn-md" tag="末宝A计划">学习课程</a>
+                                </div>
+                            </div>
+                            <div class="course-info ">
+                                <div class="title clearfix">
+                                    <a tag="末宝A计划" title="末宝A计划">末宝A计划</a>
+                                </div>
+                                <div class="metas clearfix">
+                                    <span class="time pull-right hidden-sm hidden-xs">发布时间：16-10-05 </span>
+                                    <span class="view prm">学习人数：1498 </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="light-course-item">
+                            <div class="course-img">
+                                <a tag="末宝班分享课程">
+                                    <img src="./ClassCenter/092901d26125614168.jpeg" alt="" class="img-responsive thumb img-full">
+                                </a>
+                                <div class="mask hidden-sm hidden-xs">
+                                    <a class="btn btn-primary btn-md" tag="末宝班分享课程">学习课程</a>
+                                </div>
+                            </div>
+                            <div class="course-info ">
+                                <div class="title clearfix">
+                                    <a tag="末宝班分享课程" title="末宝班分享课程">末宝班分享课程</a>
+                                </div>
+                                <div class="metas clearfix">
+                                    <span class="time pull-right hidden-sm hidden-xs">发布时间：16-10-05 </span>
+                                    <span class="view prm">学习人数：1498 </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- # -->
+                </div>
+            </div>
+        </section>
+        <!-- #课程列表 -->
+        <!-- 尾部 -->
+        <div class="copyright text-center">
+            ©2017 中山市金视照明有限公司
+
+            <ul class="site-footer-links"></ul>
+        </div>
+    </div>
+    <script src="./ClassCenter/vendor.js"></script>
+    <script src="./ClassCenter/index.js"></script>
+
+
+
+</body>
+</html>

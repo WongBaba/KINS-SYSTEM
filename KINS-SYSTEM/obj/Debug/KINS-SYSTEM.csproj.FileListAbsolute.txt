@@ -1,0 +1,24 @@
+c:\users\administrator\documents\visual studio 2012\Projects\KINS-SYSTEM\KINS-SYSTEM\bin\KINS-SYSTEM.dll
+c:\users\administrator\documents\visual studio 2012\Projects\KINS-SYSTEM\KINS-SYSTEM\bin\KINS-SYSTEM.pdb
+c:\users\administrator\documents\visual studio 2012\Projects\KINS-SYSTEM\KINS-SYSTEM\obj\Debug\KINS-SYSTEM.csprojResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2012\Projects\KINS-SYSTEM\KINS-SYSTEM\obj\Debug\KINS-SYSTEM.dll
+c:\users\administrator\documents\visual studio 2012\Projects\KINS-SYSTEM\KINS-SYSTEM\obj\Debug\KINS-SYSTEM.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\KINS-SYSTEM\KINS-SYSTEM\bin\Newtonsoft.Json.pdb
+C:\Users\Administrator\Desktop\KINS-SYSTEM\KINS-SYSTEM\bin\KINS-SYSTEM.dll
+C:\Users\Administrator\Desktop\KINS-SYSTEM\KINS-SYSTEM\bin\KINS-SYSTEM.pdb
+C:\Users\Administrator\Desktop\KINS-SYSTEM\KINS-SYSTEM\obj\Debug\KINS-SYSTEM.dll
+C:\Users\Administrator\Desktop\KINS-SYSTEM\KINS-SYSTEM\obj\Debug\KINS-SYSTEM.pdb
+H:\KINS-SYSTEM\KINS-SYSTEM\bin\KINS-SYSTEM.dll
+H:\KINS-SYSTEM\KINS-SYSTEM\bin\KINS-SYSTEM.pdb
+H:\KINS-SYSTEM\KINS-SYSTEM\obj\Debug\KINS-SYSTEM.dll
+H:\KINS-SYSTEM\KINS-SYSTEM\obj\Debug\KINS-SYSTEM.pdb
+\\User-20161104nl\h\KINS-SYSTEM\KINS-SYSTEM\bin\KINS-SYSTEM.dll
+\\User-20161104nl\h\KINS-SYSTEM\KINS-SYSTEM\bin\KINS-SYSTEM.pdb
+\\User-20161104nl\h\KINS-SYSTEM\KINS-SYSTEM\obj\Debug\KINS-SYSTEM.dll
+\\User-20161104nl\h\KINS-SYSTEM\KINS-SYSTEM\obj\Debug\KINS-SYSTEM.pdb
+\\User-20161104nl\h\KINS-SYSTEM\KINS-SYSTEM\obj\Debug\KINS-SYSTEM.csprojResolveAssemblyReference.cache
+E:\Project\vs项目\KINS-SYSTEM\KINS-SYSTEM\bin\KINS-SYSTEM.dll
+E:\Project\vs项目\KINS-SYSTEM\KINS-SYSTEM\bin\KINS-SYSTEM.pdb
+E:\Project\vs项目\KINS-SYSTEM\KINS-SYSTEM\obj\Debug\KINS-SYSTEM.csprojResolveAssemblyReference.cache
+E:\Project\vs项目\KINS-SYSTEM\KINS-SYSTEM\obj\Debug\KINS-SYSTEM.dll
+E:\Project\vs项目\KINS-SYSTEM\KINS-SYSTEM\obj\Debug\KINS-SYSTEM.pdb

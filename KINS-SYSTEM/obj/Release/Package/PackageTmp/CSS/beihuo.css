@@ -1,0 +1,196 @@
+﻿
+/*仅用于发货易使用tampermonkey插件进行备货功能*/
+
+/*初始化各标签*/
+html, div, body, ul, li {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: 微软雅黑;
+    box-sizing: border-box;
+}
+input {
+    box-sizing: border-box;
+}
+
+/*定义iconfont图标字体*/
+@font-face {
+    font-family: 'KINS_pageIcon'; /* project id 228793 */
+    src: url('../../Font/iconfont.woff') format('woff');
+}
+
+.KinsFont {
+    font-family:"KINS_pageIcon" !important;
+    font-size:10px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/*全屏不可操作灰背景*/
+.blackScreen {
+    background: rgba(0,0,0,0.45);
+    z-index: 500;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: none;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.closeBlack { /*关闭灰背景按钮样式*/
+    font-family: KINS_pageIcon;
+    color: white;
+    background-color: #333;
+    margin: 10px;
+    display: block;
+    width: 30px;
+    height: 30px;
+    float: right;
+    line-height: 32px;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 28px;
+}
+
+    .closeBlack:hover {
+        background-color: rgb(212,63,39);
+    }
+
+.blackFrame {
+    border: 0px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 10%;
+    height: 80%;
+    width: 80%;
+    z-index: 600;
+    position: absolute;
+    display: none;
+}
+
+
+/*容器标题样式*/
+.containerTitle {
+    display: block;
+    width: 100%;
+    height: 50px;
+    font-size: 11pt;
+    line-height: 50px;
+    vertical-align: middle;
+    border-bottom: 1px solid #dee5f3;
+}
+
+    .containerTitle:before {
+        font-family: KINS_pageIcon;
+        content: "\e609  ";
+        color: #333;
+    }
+
+    .containerTitle a {
+        float: right;
+        margin-right: 10px;
+        text-align: center;
+        height: 20px;
+        line-height: 20px;
+        border: 1px solid #2f89e1;
+        border-radius: 10px 10px 10px 10px;
+        margin-top: 15px;
+        cursor: pointer;
+        background-color: #FFF;
+        font-size: 7pt;
+    }
+
+        .containerTitle a:hover {
+            color: #FFF;
+            background-color: #2f89e1;
+        }
+
+/*边框阴影*/
+.borderShadow {
+    border: 1px solid #fff;
+    /*边框阴影兼容ie6 ie7 ie8 火狐 googlet等所有浏览器*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#ccc')"; /* For IE 8 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#ccc'); /* For IE 5.5 - 7 */
+    -moz-box-shadow: 0px 0px 10px #ccc; /* for firefox */
+    -webkit-box-shadow: 0px 0px 10px #ccc; /* for safari or chrome */
+    box-shadow: 0px 0px 10px #ccc; /* for opera or ie9 */
+}
+
+
+
+
+.non-null:before {
+    font-family: KINS_pageIcon;
+    color: #e20b0b;
+    content: "\e6b6   ";
+    font-weight: bolder;
+}
+
+/*表格Table样式*/
+.comTable {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #D8D8D8;
+    margin-top: 10px;
+    table-layout: fixed;
+}
+
+    .comTable thead {
+        width: 100%;
+        border: 1px solid #D8D8D8;
+        background-color: #2E98E8;
+        color: #FFF;
+    }
+
+    .comTable th {
+        font-size: 11pt;
+        font-weight: normal;
+        height: 35px;
+        border: 1px solid #FFF;
+        font-weight: 500;
+    }
+
+    .comTable tbody {
+        height: 30px;
+        width: 100%;
+        background-color: #EFEFEF;
+    }
+
+    .comTable tr {
+        height: 30px;
+        width: 100%;
+        border: 1px solid #D8D8D8;
+    }
+
+    .orderdata:hover {
+        background-color: #3BB6DC;
+        color: #FFF;
+        cursor: default;
+    }
+
+    .comTable td {
+        height: 30px;
+        border: 1px solid #D8D8D8;
+        text-align: center;
+        font-size: 9pt;
+        font-weight: normal;
+    }
+
+    .comTable input {
+        text-align: left;
+    }
+
+    .comTable td {
+        overflow: hidden;
+        white-space: nowrap; /*处理元素内的空白，比如空格，使得在一行显示，不换行*/
+        text-overflow: ellipsis; /*IE浏览器显示省略标记...*/
+    }
+

@@ -1,0 +1,15 @@
+C:\Users\Administrator\Desktop\KINS-SYSTEM\KINS-SYSTEM\bin\KINS-SYSTEM.dll
+C:\Users\Administrator\Desktop\KINS-SYSTEM\KINS-SYSTEM\bin\KINS-SYSTEM.pdb
+C:\Users\Administrator\Desktop\KINS-SYSTEM\KINS-SYSTEM\obj\Release\KINS-SYSTEM.dll
+C:\Users\Administrator\Desktop\KINS-SYSTEM\KINS-SYSTEM\obj\Release\KINS-SYSTEM.pdb
+H:\KINS-SYSTEM\KINS-SYSTEM\bin\KINS-SYSTEM.dll
+H:\KINS-SYSTEM\KINS-SYSTEM\bin\KINS-SYSTEM.pdb
+H:\KINS-SYSTEM\KINS-SYSTEM\obj\Release\KINS-SYSTEM.dll
+H:\KINS-SYSTEM\KINS-SYSTEM\obj\Release\KINS-SYSTEM.pdb
+\\User-20161104nl\h\KINS-SYSTEM\KINS-SYSTEM\bin\KINS-SYSTEM.dll
+\\User-20161104nl\h\KINS-SYSTEM\KINS-SYSTEM\bin\KINS-SYSTEM.pdb
+\\User-20161104nl\h\KINS-SYSTEM\KINS-SYSTEM\obj\Release\KINS-SYSTEM.dll
+\\User-20161104nl\h\KINS-SYSTEM\KINS-SYSTEM\obj\Release\KINS-SYSTEM.pdb
+\\User-20161104nl\h\KINS-SYSTEM\KINS-SYSTEM\obj\Release\KINS-SYSTEM.csprojResolveAssemblyReference.cache
+H:\KINS-SYSTEM\KINS-SYSTEM\obj\Release\KINS-SYSTEM.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\KINS-SYSTEM\KINS-SYSTEM\obj\Release\KINS-SYSTEM.csprojResolveAssemblyReference.cache

@@ -1,0 +1,1668 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>H:\KINS_SYSTEM</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/KINS-SYSTEM.dll">
+      <publishTime>08/18/2018 09:39:00</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>02/09/2017 21:45:54</publishTime>
+    </File>
+    <File Include="CSS/beihuo.css">
+      <publishTime>04/10/2018 17:52:53</publishTime>
+    </File>
+    <File Include="CSS/commPage.css">
+      <publishTime>03/05/2018 10:10:41</publishTime>
+    </File>
+    <File Include="CSS/easyform.css">
+      <publishTime>02/11/2017 12:37:44</publishTime>
+    </File>
+    <File Include="CSS/iconfont.css">
+      <publishTime>02/08/2017 16:21:08</publishTime>
+    </File>
+    <File Include="CSS/Loading.css">
+      <publishTime>01/25/2018 13:47:07</publishTime>
+    </File>
+    <File Include="CSS/scollBar.css">
+      <publishTime>02/09/2017 18:52:00</publishTime>
+    </File>
+    <File Include="CSS/VideoCSS/fz-video.css">
+      <publishTime>06/27/2017 13:29:47</publishTime>
+    </File>
+    <File Include="CSS/VideoCSS/iconfont.eot">
+      <publishTime>06/27/2017 13:34:19</publishTime>
+    </File>
+    <File Include="CSS/VideoCSS/iconfont.svg">
+      <publishTime>06/27/2017 13:34:19</publishTime>
+    </File>
+    <File Include="CSS/VideoCSS/iconfont.ttf">
+      <publishTime>06/27/2017 13:34:19</publishTime>
+    </File>
+    <File Include="CSS/VideoCSS/iconfont.woff">
+      <publishTime>06/27/2017 13:34:19</publishTime>
+    </File>
+    <File Include="CSS/VideoCSS/iconfonts.css">
+      <publishTime>06/27/2017 13:34:19</publishTime>
+    </File>
+    <File Include="Font/iconfont.woff">
+      <publishTime>03/22/2017 18:08:44</publishTime>
+    </File>
+    <File Include="Funs/db/history.txt">
+      <publishTime>08/18/2018 09:37:06</publishTime>
+    </File>
+    <File Include="Funs/db/jifen.txt">
+      <publishTime>08/18/2018 09:37:06</publishTime>
+    </File>
+    <File Include="Funs/index.aspx">
+      <publishTime>08/18/2018 09:34:56</publishTime>
+    </File>
+    <File Include="Funs/save.ashx">
+      <publishTime>08/18/2018 09:36:31</publishTime>
+    </File>
+    <File Include="Image/16-16Logo.png">
+      <publishTime>02/18/2017 13:54:08</publishTime>
+    </File>
+    <File Include="Image/background.png">
+      <publishTime>02/07/2017 16:47:20</publishTime>
+    </File>
+    <File Include="Image/bg2.JPG">
+      <publishTime>02/07/2017 18:39:16</publishTime>
+    </File>
+    <File Include="Image/folder.png">
+      <publishTime>08/13/2018 10:26:05</publishTime>
+    </File>
+    <File Include="Image/Icon/empty.gif">
+      <publishTime>03/24/2017 01:49:08</publishTime>
+    </File>
+    <File Include="Image/Icon/join.gif">
+      <publishTime>03/24/2017 01:49:08</publishTime>
+    </File>
+    <File Include="Image/Icon/joinbottom.gif">
+      <publishTime>03/24/2017 01:49:08</publishTime>
+    </File>
+    <File Include="Image/Icon/line.gif">
+      <publishTime>03/24/2017 01:49:08</publishTime>
+    </File>
+    <File Include="Image/Icon/minus.gif">
+      <publishTime>03/24/2017 01:49:08</publishTime>
+    </File>
+    <File Include="Image/Icon/minusbottom.gif">
+      <publishTime>03/24/2017 01:49:08</publishTime>
+    </File>
+    <File Include="Image/Icon/plus.gif">
+      <publishTime>03/24/2017 01:49:08</publishTime>
+    </File>
+    <File Include="Image/Icon/plusbottom.gif">
+      <publishTime>03/24/2017 01:49:08</publishTime>
+    </File>
+    <File Include="Image/SYS_LOGO.JPG">
+      <publishTime>02/07/2017 19:40:20</publishTime>
+    </File>
+    <File Include="Image/textfield.png">
+      <publishTime>02/07/2017 16:47:20</publishTime>
+    </File>
+    <File Include="Image/video.png">
+      <publishTime>08/13/2018 10:26:05</publishTime>
+    </File>
+    <File Include="Image/wenhao.png">
+      <publishTime>08/13/2018 10:46:30</publishTime>
+    </File>
+    <File Include="Image/企业hidden.png">
+      <publishTime>03/09/2018 11:32:35</publishTime>
+    </File>
+    <File Include="Image/企业show.png">
+      <publishTime>03/09/2018 11:32:35</publishTime>
+    </File>
+    <File Include="JS/ajaxfileupload.js">
+      <publishTime>03/16/2017 17:54:33</publishTime>
+    </File>
+    <File Include="JS/amCharts/amcharts.js">
+      <publishTime>03/03/2018 09:17:03</publishTime>
+    </File>
+    <File Include="JS/amCharts/funnel.js">
+      <publishTime>02/27/2018 17:35:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/gantt.js">
+      <publishTime>02/27/2018 17:35:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/gauge.js">
+      <publishTime>02/27/2018 17:35:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/images/dragIcon.gif">
+      <publishTime>02/28/2018 14:34:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/images/dragIconBlack.gif">
+      <publishTime>02/28/2018 14:34:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/images/dragIconH.gif">
+      <publishTime>02/28/2018 14:34:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/images/dragIconHBlack.gif">
+      <publishTime>02/28/2018 14:34:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/images/dragIconRectBig.png">
+      <publishTime>02/28/2018 14:34:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/images/dragIconRectBig.svg">
+      <publishTime>02/28/2018 14:34:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/images/dragIconRectBigBlack.png">
+      <publishTime>02/28/2018 14:34:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/images/dragIconRectBigBlack.svg">
+      <publishTime>02/28/2018 14:34:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/images/dragIconRectBigBlackH.png">
+      <publishTime>02/28/2018 14:34:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/images/dragIconRectBigBlackH.svg">
+      <publishTime>02/28/2018 14:34:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/images/dragIconRectBigH.png">
+      <publishTime>02/28/2018 14:34:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/images/dragIconRectBigH.svg">
+      <publishTime>02/28/2018 14:34:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/images/dragIconRectSmall.png">
+      <publishTime>02/28/2018 14:34:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/images/dragIconRectSmall.svg">
+      <publishTime>02/28/2018 14:34:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/images/dragIconRectSmallBlack.png">
+      <publishTime>02/28/2018 14:34:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/images/dragIconRectSmallBlack.svg">
+      <publishTime>02/28/2018 14:34:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/images/dragIconRectSmallBlackH.png">
+      <publishTime>02/28/2018 14:34:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/images/dragIconRectSmallBlackH.svg">
+      <publishTime>02/28/2018 14:34:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/images/dragIconRectSmallH.png">
+      <publishTime>02/28/2018 14:34:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/images/dragIconRectSmallH.svg">
+      <publishTime>02/28/2018 14:34:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/images/dragIconRoundBig.png">
+      <publishTime>02/28/2018 14:34:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/images/dragIconRoundBig.svg">
+      <publishTime>02/28/2018 14:34:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/images/dragIconRoundBigBlack.png">
+      <publishTime>02/28/2018 14:34:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/images/dragIconRoundBigBlack.svg">
+      <publishTime>02/28/2018 14:34:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/images/dragIconRoundBigBlackH.png">
+      <publishTime>02/28/2018 14:34:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/images/dragIconRoundBigBlackH.svg">
+      <publishTime>02/28/2018 14:34:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/images/dragIconRoundBigH.png">
+      <publishTime>02/28/2018 14:34:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/images/dragIconRoundBigH.svg">
+      <publishTime>02/28/2018 14:34:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/images/dragIconRoundSmall.png">
+      <publishTime>02/28/2018 14:34:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/images/dragIconRoundSmall.svg">
+      <publishTime>02/28/2018 14:34:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/images/dragIconRoundSmallBlack.png">
+      <publishTime>02/28/2018 14:34:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/images/dragIconRoundSmallBlack.svg">
+      <publishTime>02/28/2018 14:34:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/images/dragIconRoundSmallBlackH.png">
+      <publishTime>02/28/2018 14:34:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/images/dragIconRoundSmallBlackH.svg">
+      <publishTime>02/28/2018 14:34:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/images/dragIconRoundSmallH.png">
+      <publishTime>02/28/2018 14:34:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/images/dragIconRoundSmallH.svg">
+      <publishTime>02/28/2018 14:34:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/images/eraserIcon.svg">
+      <publishTime>02/28/2018 14:34:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/images/eraserIconH.svg">
+      <publishTime>02/28/2018 14:34:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/images/export.png">
+      <publishTime>02/28/2018 14:34:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/images/exportWhite.png">
+      <publishTime>02/28/2018 14:34:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/images/lens.png">
+      <publishTime>02/28/2018 14:34:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/images/lens.svg">
+      <publishTime>02/28/2018 14:34:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/images/lensWhite.png">
+      <publishTime>02/28/2018 14:34:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/images/lensWhite.svg">
+      <publishTime>02/28/2018 14:34:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/images/lensWhite_old.png">
+      <publishTime>02/28/2018 14:34:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/images/lens_old.png">
+      <publishTime>02/28/2018 14:34:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/images/pencilIcon.svg">
+      <publishTime>02/28/2018 14:34:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/images/pencilIconH.svg">
+      <publishTime>02/28/2018 14:34:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/images/xIcon.svg">
+      <publishTime>02/28/2018 14:34:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/images/xIconH.svg">
+      <publishTime>02/28/2018 14:34:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/pie.js">
+      <publishTime>02/27/2018 17:35:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/radar.js">
+      <publishTime>02/27/2018 17:35:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/serial.js">
+      <publishTime>02/27/2018 17:35:54</publishTime>
+    </File>
+    <File Include="JS/amCharts/style.css">
+      <publishTime>03/02/2018 21:41:05</publishTime>
+    </File>
+    <File Include="JS/amCharts/xy.js">
+      <publishTime>02/27/2018 17:35:54</publishTime>
+    </File>
+    <File Include="JS/commJavascript.js">
+      <publishTime>03/08/2018 11:01:51</publishTime>
+    </File>
+    <File Include="JS/dtree.js">
+      <publishTime>03/24/2017 14:29:00</publishTime>
+    </File>
+    <File Include="JS/easyform.js">
+      <publishTime>02/11/2017 12:02:58</publishTime>
+    </File>
+    <File Include="JS/fz-video.js">
+      <publishTime>06/27/2017 13:36:04</publishTime>
+    </File>
+    <File Include="JS/jquery-1.6.js">
+      <publishTime>02/07/2017 17:09:50</publishTime>
+    </File>
+    <File Include="JS/jquery-2.0.0.js">
+      <publishTime>02/09/2017 09:59:26</publishTime>
+    </File>
+    <File Include="JS/jquery-ui-1.8.20.js">
+      <publishTime>02/07/2017 17:09:50</publishTime>
+    </File>
+    <File Include="JS/jquery.table2excel.js">
+      <publishTime>03/23/2017 14:51:59</publishTime>
+    </File>
+    <File Include="JS/video.min.js">
+      <publishTime>07/09/2017 19:49:51</publishTime>
+    </File>
+    <File Include="PageCSS/ComponentManagement/AddCompany.css">
+      <publishTime>02/16/2017 19:58:52</publishTime>
+    </File>
+    <File Include="PageCSS/ComponentManagement/AddComponent.css">
+      <publishTime>03/05/2018 09:54:35</publishTime>
+    </File>
+    <File Include="PageCSS/ComponentManagement/AddComponentType.css">
+      <publishTime>02/16/2017 20:41:50</publishTime>
+    </File>
+    <File Include="PageCSS/ComponentManagement/ComponentManagement.css">
+      <publishTime>03/20/2017 18:46:27</publishTime>
+    </File>
+    <File Include="PageCSS/ComponentManagement/DelCompany.css">
+      <publishTime>02/16/2017 20:44:00</publishTime>
+    </File>
+    <File Include="PageCSS/ComponentManagement/DelComponent.css">
+      <publishTime>02/16/2017 20:44:52</publishTime>
+    </File>
+    <File Include="PageCSS/ComponentManagement/DelComponentType.css">
+      <publishTime>02/16/2017 20:45:36</publishTime>
+    </File>
+    <File Include="PageCSS/Index.css">
+      <publishTime>03/09/2018 11:55:28</publishTime>
+    </File>
+    <File Include="PageCSS/Login.css">
+      <publishTime>02/16/2017 19:56:40</publishTime>
+    </File>
+    <File Include="PageJavaScript/ComponentManagement/AddCompany.js">
+      <publishTime>03/01/2018 15:34:44</publishTime>
+    </File>
+    <File Include="PageJavaScript/Index.js">
+      <publishTime>03/22/2017 00:20:09</publishTime>
+    </File>
+    <File Include="Pages/AttendanceManagement/AttendanceManagement.aspx">
+      <publishTime>03/23/2017 16:38:50</publishTime>
+    </File>
+    <File Include="Pages/AttendanceManagement/CheckIn.aspx">
+      <publishTime>03/08/2017 15:04:04</publishTime>
+    </File>
+    <File Include="Pages/AttendanceManagement/CheckLogin.aspx">
+      <publishTime>03/02/2017 11:45:34</publishTime>
+    </File>
+    <File Include="Pages/AttendanceManagement/GetAttendance.ashx">
+      <publishTime>03/02/2017 16:50:32</publishTime>
+    </File>
+    <File Include="Pages/ComponentManagement/AddCompany.ashx">
+      <publishTime>02/11/2017 19:28:42</publishTime>
+    </File>
+    <File Include="Pages/ComponentManagement/AddCompany.aspx">
+      <publishTime>03/08/2018 15:13:03</publishTime>
+    </File>
+    <File Include="Pages/ComponentManagement/AddComponent.ashx">
+      <publishTime>02/16/2017 15:40:30</publishTime>
+    </File>
+    <File Include="Pages/ComponentManagement/AddComponent.aspx">
+      <publishTime>03/08/2018 15:13:03</publishTime>
+    </File>
+    <File Include="Pages/ComponentManagement/AddComponentType.aspx">
+      <publishTime>02/16/2017 20:42:02</publishTime>
+    </File>
+    <File Include="Pages/ComponentManagement/ComponentManagement.ashx">
+      <publishTime>02/12/2017 11:12:10</publishTime>
+    </File>
+    <File Include="Pages/ComponentManagement/ComponentManagement.aspx">
+      <publishTime>03/15/2018 09:42:03</publishTime>
+    </File>
+    <File Include="Pages/ComponentManagement/DelCompany.aspx">
+      <publishTime>02/16/2017 20:44:16</publishTime>
+    </File>
+    <File Include="Pages/ComponentManagement/DelComponent.aspx">
+      <publishTime>02/16/2017 20:45:04</publishTime>
+    </File>
+    <File Include="Pages/ComponentManagement/DelComponentType.aspx">
+      <publishTime>02/16/2017 20:45:48</publishTime>
+    </File>
+    <File Include="Pages/ComponentManagement/EditComponent.ashx">
+      <publishTime>03/21/2017 18:49:03</publishTime>
+    </File>
+    <File Include="Pages/ComponentManagement/EditComponent.aspx">
+      <publishTime>03/08/2018 15:13:03</publishTime>
+    </File>
+    <File Include="Pages/ComponentManagement/Init_Component.ashx">
+      <publishTime>02/13/2017 15:19:42</publishTime>
+    </File>
+    <File Include="Pages/ComponentManagement/Init_Co_ComType.ashx">
+      <publishTime>02/13/2017 15:20:28</publishTime>
+    </File>
+    <File Include="Pages/CustomerManagement/aa.ashx">
+      <publishTime>01/25/2018 18:51:38</publishTime>
+    </File>
+    <File Include="Pages/CustomerManagement/CustomerInfoSync.ashx">
+      <publishTime>01/24/2018 18:37:58</publishTime>
+    </File>
+    <File Include="Pages/CustomerManagement/CustomerInfoSync.aspx">
+      <publishTime>01/26/2018 13:07:30</publishTime>
+    </File>
+    <File Include="Pages/CustomerManagement/CustomerInfoSync.js">
+      <publishTime>02/02/2018 11:17:18</publishTime>
+    </File>
+    <File Include="Pages/CustomerManagement/CustomerListSync.aspx">
+      <publishTime>01/24/2018 16:47:36</publishTime>
+    </File>
+    <File Include="Pages/CustomerManagement/GetCustomerInfo.aspx">
+      <publishTime>02/03/2018 14:53:06</publishTime>
+    </File>
+    <File Include="Pages/Exit.aspx">
+      <publishTime>03/21/2017 23:02:09</publishTime>
+    </File>
+    <File Include="Pages/FinancialManagement/FinancialReports.aspx">
+      <publishTime>03/09/2018 16:05:01</publishTime>
+    </File>
+    <File Include="Pages/FinancialManagement/FinancialReportsGetData.ashx">
+      <publishTime>02/28/2018 15:01:13</publishTime>
+    </File>
+    <File Include="Pages/FinancialManagement/IncomeAddnew.ashx">
+      <publishTime>02/04/2018 13:36:40</publishTime>
+    </File>
+    <File Include="Pages/FinancialManagement/IncomeAddnew.aspx">
+      <publishTime>03/08/2018 15:13:04</publishTime>
+    </File>
+    <File Include="Pages/FinancialManagement/IncomeDelete.aspx">
+      <publishTime>02/04/2018 22:44:53</publishTime>
+    </File>
+    <File Include="Pages/FinancialManagement/IncomeEdit.ashx">
+      <publishTime>02/04/2018 23:34:54</publishTime>
+    </File>
+    <File Include="Pages/FinancialManagement/IncomeEdit.aspx">
+      <publishTime>03/08/2018 15:13:03</publishTime>
+    </File>
+    <File Include="Pages/FinancialManagement/IncomeGetData.ashx">
+      <publishTime>02/04/2018 14:30:04</publishTime>
+    </File>
+    <File Include="Pages/FinancialManagement/IncomeManagement.aspx">
+      <publishTime>03/15/2018 09:42:03</publishTime>
+    </File>
+    <File Include="Pages/FinancialManagement/OutlayAddnew.ashx">
+      <publishTime>02/22/2018 16:26:10</publishTime>
+    </File>
+    <File Include="Pages/FinancialManagement/OutlayAddnew.aspx">
+      <publishTime>03/08/2018 15:13:03</publishTime>
+    </File>
+    <File Include="Pages/FinancialManagement/OutlayDelete.aspx">
+      <publishTime>02/22/2018 20:32:48</publishTime>
+    </File>
+    <File Include="Pages/FinancialManagement/OutlayEdit.ashx">
+      <publishTime>02/22/2018 20:41:19</publishTime>
+    </File>
+    <File Include="Pages/FinancialManagement/OutlayEdit.aspx">
+      <publishTime>03/08/2018 15:13:03</publishTime>
+    </File>
+    <File Include="Pages/FinancialManagement/OutlayGetData.ashx">
+      <publishTime>02/22/2018 18:13:06</publishTime>
+    </File>
+    <File Include="Pages/FinancialManagement/OutlayManagement.aspx">
+      <publishTime>03/15/2018 09:42:03</publishTime>
+    </File>
+    <File Include="Pages/FinancialManagement/PayableAddnew.ashx">
+      <publishTime>02/26/2018 10:27:02</publishTime>
+    </File>
+    <File Include="Pages/FinancialManagement/PayableAddnew.aspx">
+      <publishTime>03/08/2018 15:13:03</publishTime>
+    </File>
+    <File Include="Pages/FinancialManagement/PayableCheckout.ashx">
+      <publishTime>02/26/2018 11:12:09</publishTime>
+    </File>
+    <File Include="Pages/FinancialManagement/PayableCheckout.aspx">
+      <publishTime>03/08/2018 15:13:03</publishTime>
+    </File>
+    <File Include="Pages/FinancialManagement/PayableEdit.aspx">
+      <publishTime>03/08/2018 15:13:03</publishTime>
+    </File>
+    <File Include="Pages/FinancialManagement/PayableManagement.aspx">
+      <publishTime>03/15/2018 09:42:04</publishTime>
+    </File>
+    <File Include="Pages/FinancialManagement/ReceivableAddnew.ashx">
+      <publishTime>02/23/2018 12:04:17</publishTime>
+    </File>
+    <File Include="Pages/FinancialManagement/ReceivableAddnew.aspx">
+      <publishTime>03/08/2018 15:13:03</publishTime>
+    </File>
+    <File Include="Pages/FinancialManagement/ReceivableCheckout.ashx">
+      <publishTime>02/25/2018 09:34:02</publishTime>
+    </File>
+    <File Include="Pages/FinancialManagement/ReceivableCheckout.aspx">
+      <publishTime>03/08/2018 15:13:03</publishTime>
+    </File>
+    <File Include="Pages/FinancialManagement/ReceivableEdit.aspx">
+      <publishTime>03/08/2018 15:13:03</publishTime>
+    </File>
+    <File Include="Pages/FinancialManagement/ReceivableManagement.aspx">
+      <publishTime>03/15/2018 09:42:04</publishTime>
+    </File>
+    <File Include="Pages/FolderVideo/ClassCenter.html">
+      <publishTime>08/12/2018 18:20:39</publishTime>
+    </File>
+    <File Include="Pages/FolderVideo/ClassCenter/092726e880a6931435.jpeg">
+      <publishTime>07/09/2017 09:31:24</publishTime>
+    </File>
+    <File Include="Pages/FolderVideo/ClassCenter/0928077d55c6565313.jpeg">
+      <publishTime>07/09/2017 09:31:24</publishTime>
+    </File>
+    <File Include="Pages/FolderVideo/ClassCenter/092901d26125614168.jpeg">
+      <publishTime>07/09/2017 09:31:24</publishTime>
+    </File>
+    <File Include="Pages/FolderVideo/ClassCenter/093019bd4877456178.jpeg">
+      <publishTime>07/09/2017 09:31:24</publishTime>
+    </File>
+    <File Include="Pages/FolderVideo/ClassCenter/093055f62af5124490.jpeg">
+      <publishTime>07/09/2017 09:31:24</publishTime>
+    </File>
+    <File Include="Pages/FolderVideo/ClassCenter/103020cedcfc667408.jpg">
+      <publishTime>07/09/2017 09:31:24</publishTime>
+    </File>
+    <File Include="Pages/FolderVideo/ClassCenter/110154266cbe939379.jpg">
+      <publishTime>07/09/2017 09:31:24</publishTime>
+    </File>
+    <File Include="Pages/FolderVideo/ClassCenter/15064444fee2131681.jpg">
+      <publishTime>07/09/2017 09:31:24</publishTime>
+    </File>
+    <File Include="Pages/FolderVideo/ClassCenter/165753123f1b993465.jpeg">
+      <publishTime>07/09/2017 09:31:24</publishTime>
+    </File>
+    <File Include="Pages/FolderVideo/ClassCenter/17000777ad8f664606.jpeg">
+      <publishTime>07/09/2017 09:31:24</publishTime>
+    </File>
+    <File Include="Pages/FolderVideo/ClassCenter/220636c78c34363324.jpg">
+      <publishTime>07/09/2017 09:31:24</publishTime>
+    </File>
+    <File Include="Pages/FolderVideo/ClassCenter/221706293220635820.jpg">
+      <publishTime>07/09/2017 09:31:24</publishTime>
+    </File>
+    <File Include="Pages/FolderVideo/ClassCenter/222831f403ef876927.jpg">
+      <publishTime>07/09/2017 09:31:24</publishTime>
+    </File>
+    <File Include="Pages/FolderVideo/ClassCenter/bootstrap.css">
+      <publishTime>07/09/2017 09:31:24</publishTime>
+    </File>
+    <File Include="Pages/FolderVideo/ClassCenter/index.js">
+      <publishTime>07/09/2017 09:31:24</publishTime>
+    </File>
+    <File Include="Pages/FolderVideo/ClassCenter/main.css">
+      <publishTime>07/09/2017 09:31:24</publishTime>
+    </File>
+    <File Include="Pages/FolderVideo/ClassCenter/vendor.js">
+      <publishTime>07/09/2017 11:12:11</publishTime>
+    </File>
+    <File Include="Pages/FolderVideo/ClassSchedule.html">
+      <publishTime>08/13/2018 11:44:56</publishTime>
+    </File>
+    <File Include="Pages/FolderVideo/ClassSchedule/092901d209af123639.jpeg">
+      <publishTime>07/09/2017 09:35:19</publishTime>
+    </File>
+    <File Include="Pages/FolderVideo/ClassSchedule/app-bootstrap-8.0.17.css">
+      <publishTime>07/09/2017 09:35:19</publishTime>
+    </File>
+    <File Include="Pages/FolderVideo/ClassSchedule/common-8.0.17.js">
+      <publishTime>06/28/2017 21:00:25</publishTime>
+    </File>
+    <File Include="Pages/FolderVideo/ClassSchedule/echo-js-8.0.17.js">
+      <publishTime>07/09/2017 09:35:19</publishTime>
+    </File>
+    <File Include="Pages/FolderVideo/ClassSchedule/excanvas-compiled-8.0.17.js">
+      <publishTime>07/09/2017 09:35:19</publishTime>
+    </File>
+    <File Include="Pages/FolderVideo/ClassSchedule/index-8.0.17%281%29.js">
+      <publishTime>07/09/2017 09:35:19</publishTime>
+    </File>
+    <File Include="Pages/FolderVideo/ClassSchedule/index-8.0.17%282%29.js">
+      <publishTime>07/09/2017 09:35:19</publishTime>
+    </File>
+    <File Include="Pages/FolderVideo/ClassSchedule/index-8.0.17%283%29.js">
+      <publishTime>07/09/2017 09:35:19</publishTime>
+    </File>
+    <File Include="Pages/FolderVideo/ClassSchedule/index-8.0.17%284%29.js">
+      <publishTime>07/09/2017 09:35:19</publishTime>
+    </File>
+    <File Include="Pages/FolderVideo/ClassSchedule/index-8.0.17.js">
+      <publishTime>07/09/2017 09:35:19</publishTime>
+    </File>
+    <File Include="Pages/FolderVideo/ClassSchedule/jquery-countdown-8.0.17.js">
+      <publishTime>07/09/2017 09:35:19</publishTime>
+    </File>
+    <File Include="Pages/FolderVideo/ClassSchedule/jquery.easypiechart-8.0.17.js">
+      <publishTime>07/09/2017 09:35:19</publishTime>
+    </File>
+    <File Include="Pages/FolderVideo/ClassSchedule/js">
+      <publishTime>07/09/2017 09:35:19</publishTime>
+    </File>
+    <File Include="Pages/FolderVideo/ClassSchedule/main-8.0.17%281%29.css">
+      <publishTime>07/09/2017 09:35:19</publishTime>
+    </File>
+    <File Include="Pages/FolderVideo/ClassSchedule/main-8.0.17%282%29.js">
+      <publishTime>07/09/2017 09:35:19</publishTime>
+    </File>
+    <File Include="Pages/FolderVideo/ClassSchedule/main-8.0.17.css">
+      <publishTime>07/09/2017 09:35:19</publishTime>
+    </File>
+    <File Include="Pages/FolderVideo/ClassSchedule/main-8.0.17.js">
+      <publishTime>07/09/2017 09:35:19</publishTime>
+    </File>
+    <File Include="Pages/FolderVideo/ClassSchedule/perfect-scrollbar-8.0.17.js">
+      <publishTime>07/09/2017 09:35:19</publishTime>
+    </File>
+    <File Include="Pages/FolderVideo/ClassSchedule/translator.min-8.0.17.js">
+      <publishTime>07/09/2017 09:35:19</publishTime>
+    </File>
+    <File Include="Pages/FolderVideo/ClassSchedule/vendor-8.0.17.css">
+      <publishTime>07/09/2017 09:35:19</publishTime>
+    </File>
+    <File Include="Pages/FolderVideo/ClassSchedule/vendor-8.0.17.js">
+      <publishTime>07/09/2017 11:12:11</publishTime>
+    </File>
+    <File Include="Pages/FolderVideo/Course.html">
+      <publishTime>08/13/2018 17:26:06</publishTime>
+    </File>
+    <File Include="Pages/FolderVideo/Course/autumn.css">
+      <publishTime>06/28/2017 21:35:05</publishTime>
+    </File>
+    <File Include="Pages/FolderVideo/Course/bootstrap.css">
+      <publishTime>07/09/2017 09:35:43</publishTime>
+    </File>
+    <File Include="Pages/FolderVideo/Course/common.css">
+      <publishTime>07/09/2017 09:35:43</publishTime>
+    </File>
+    <File Include="Pages/FolderVideo/Course/es-icon.css">
+      <publishTime>07/09/2017 09:35:43</publishTime>
+    </File>
+    <File Include="Pages/FolderVideo/Course/font-awesome.min.css">
+      <publishTime>07/09/2017 09:35:43</publishTime>
+    </File>
+    <File Include="Pages/FolderVideo/Course/jquery.min.js">
+      <publishTime>07/09/2017 11:12:11</publishTime>
+    </File>
+    <File Include="Pages/FolderVideo/Course/main.css">
+      <publishTime>06/27/2017 22:57:45</publishTime>
+    </File>
+    <File Include="Pages/FolderVideo/FolderView.ashx">
+      <publishTime>08/13/2018 10:49:20</publishTime>
+    </File>
+    <File Include="Pages/FolderVideo/FolderView.aspx">
+      <publishTime>08/13/2018 17:13:54</publishTime>
+    </File>
+    <File Include="Pages/FolderVideo/GetCourse.ashx">
+      <publishTime>08/12/2018 18:16:40</publishTime>
+    </File>
+    <File Include="Pages/FolderVideo/GetCourses.ashx">
+      <publishTime>08/12/2018 18:16:40</publishTime>
+    </File>
+    <File Include="Pages/FolderVideo/test.ashx">
+      <publishTime>03/18/2018 17:24:24</publishTime>
+    </File>
+    <File Include="Pages/FolderVideo/test.aspx">
+      <publishTime>03/19/2018 09:49:03</publishTime>
+    </File>
+    <File Include="Pages/Index.aspx">
+      <publishTime>03/09/2018 11:52:37</publishTime>
+    </File>
+    <File Include="Pages/lockIndex.ashx">
+      <publishTime>03/22/2017 00:00:16</publishTime>
+    </File>
+    <File Include="Pages/Login.aspx">
+      <publishTime>03/09/2018 11:56:54</publishTime>
+    </File>
+    <File Include="Pages/NoPermission.aspx">
+      <publishTime>03/23/2017 23:28:15</publishTime>
+    </File>
+    <File Include="Pages/OperationCourse/ClassCenter.html">
+      <publishTime>06/27/2017 14:15:16</publishTime>
+    </File>
+    <File Include="Pages/OperationCourse/ClassCenter/092726e880a6931435.jpeg">
+      <publishTime>07/09/2017 09:31:24</publishTime>
+    </File>
+    <File Include="Pages/OperationCourse/ClassCenter/0928077d55c6565313.jpeg">
+      <publishTime>07/09/2017 09:31:24</publishTime>
+    </File>
+    <File Include="Pages/OperationCourse/ClassCenter/092901d26125614168.jpeg">
+      <publishTime>07/09/2017 09:31:24</publishTime>
+    </File>
+    <File Include="Pages/OperationCourse/ClassCenter/093019bd4877456178.jpeg">
+      <publishTime>07/09/2017 09:31:24</publishTime>
+    </File>
+    <File Include="Pages/OperationCourse/ClassCenter/093055f62af5124490.jpeg">
+      <publishTime>07/09/2017 09:31:24</publishTime>
+    </File>
+    <File Include="Pages/OperationCourse/ClassCenter/103020cedcfc667408.jpg">
+      <publishTime>07/09/2017 09:31:24</publishTime>
+    </File>
+    <File Include="Pages/OperationCourse/ClassCenter/110154266cbe939379.jpg">
+      <publishTime>07/09/2017 09:31:24</publishTime>
+    </File>
+    <File Include="Pages/OperationCourse/ClassCenter/15064444fee2131681.jpg">
+      <publishTime>07/09/2017 09:31:24</publishTime>
+    </File>
+    <File Include="Pages/OperationCourse/ClassCenter/165753123f1b993465.jpeg">
+      <publishTime>07/09/2017 09:31:24</publishTime>
+    </File>
+    <File Include="Pages/OperationCourse/ClassCenter/17000777ad8f664606.jpeg">
+      <publishTime>07/09/2017 09:31:24</publishTime>
+    </File>
+    <File Include="Pages/OperationCourse/ClassCenter/220636c78c34363324.jpg">
+      <publishTime>07/09/2017 09:31:24</publishTime>
+    </File>
+    <File Include="Pages/OperationCourse/ClassCenter/221706293220635820.jpg">
+      <publishTime>07/09/2017 09:31:24</publishTime>
+    </File>
+    <File Include="Pages/OperationCourse/ClassCenter/222831f403ef876927.jpg">
+      <publishTime>07/09/2017 09:31:24</publishTime>
+    </File>
+    <File Include="Pages/OperationCourse/ClassCenter/bootstrap.css">
+      <publishTime>07/09/2017 09:31:24</publishTime>
+    </File>
+    <File Include="Pages/OperationCourse/ClassCenter/index.js">
+      <publishTime>07/09/2017 09:31:24</publishTime>
+    </File>
+    <File Include="Pages/OperationCourse/ClassCenter/main.css">
+      <publishTime>07/09/2017 09:31:24</publishTime>
+    </File>
+    <File Include="Pages/OperationCourse/ClassCenter/vendor.js">
+      <publishTime>07/09/2017 11:12:11</publishTime>
+    </File>
+    <File Include="Pages/OperationCourse/ClassSchedule.html">
+      <publishTime>06/27/2017 14:15:05</publishTime>
+    </File>
+    <File Include="Pages/OperationCourse/ClassSchedule/092901d209af123639.jpeg">
+      <publishTime>07/09/2017 09:35:19</publishTime>
+    </File>
+    <File Include="Pages/OperationCourse/ClassSchedule/app-bootstrap-8.0.17.css">
+      <publishTime>07/09/2017 09:35:19</publishTime>
+    </File>
+    <File Include="Pages/OperationCourse/ClassSchedule/common-8.0.17.js">
+      <publishTime>06/28/2017 21:00:25</publishTime>
+    </File>
+    <File Include="Pages/OperationCourse/ClassSchedule/echo-js-8.0.17.js">
+      <publishTime>07/09/2017 09:35:19</publishTime>
+    </File>
+    <File Include="Pages/OperationCourse/ClassSchedule/excanvas-compiled-8.0.17.js">
+      <publishTime>07/09/2017 09:35:19</publishTime>
+    </File>
+    <File Include="Pages/OperationCourse/ClassSchedule/index-8.0.17%281%29.js">
+      <publishTime>07/09/2017 09:35:19</publishTime>
+    </File>
+    <File Include="Pages/OperationCourse/ClassSchedule/index-8.0.17%282%29.js">
+      <publishTime>07/09/2017 09:35:19</publishTime>
+    </File>
+    <File Include="Pages/OperationCourse/ClassSchedule/index-8.0.17%283%29.js">
+      <publishTime>07/09/2017 09:35:19</publishTime>
+    </File>
+    <File Include="Pages/OperationCourse/ClassSchedule/index-8.0.17%284%29.js">
+      <publishTime>07/09/2017 09:35:19</publishTime>
+    </File>
+    <File Include="Pages/OperationCourse/ClassSchedule/index-8.0.17.js">
+      <publishTime>07/09/2017 09:35:19</publishTime>
+    </File>
+    <File Include="Pages/OperationCourse/ClassSchedule/jquery-countdown-8.0.17.js">
+      <publishTime>07/09/2017 09:35:19</publishTime>
+    </File>
+    <File Include="Pages/OperationCourse/ClassSchedule/jquery.easypiechart-8.0.17.js">
+      <publishTime>07/09/2017 09:35:19</publishTime>
+    </File>
+    <File Include="Pages/OperationCourse/ClassSchedule/js">
+      <publishTime>07/09/2017 09:35:19</publishTime>
+    </File>
+    <File Include="Pages/OperationCourse/ClassSchedule/main-8.0.17%281%29.css">
+      <publishTime>07/09/2017 09:35:19</publishTime>
+    </File>
+    <File Include="Pages/OperationCourse/ClassSchedule/main-8.0.17%282%29.js">
+      <publishTime>07/09/2017 09:35:19</publishTime>
+    </File>
+    <File Include="Pages/OperationCourse/ClassSchedule/main-8.0.17.css">
+      <publishTime>07/09/2017 09:35:19</publishTime>
+    </File>
+    <File Include="Pages/OperationCourse/ClassSchedule/main-8.0.17.js">
+      <publishTime>07/09/2017 09:35:19</publishTime>
+    </File>
+    <File Include="Pages/OperationCourse/ClassSchedule/perfect-scrollbar-8.0.17.js">
+      <publishTime>07/09/2017 09:35:19</publishTime>
+    </File>
+    <File Include="Pages/OperationCourse/ClassSchedule/translator.min-8.0.17.js">
+      <publishTime>07/09/2017 09:35:19</publishTime>
+    </File>
+    <File Include="Pages/OperationCourse/ClassSchedule/vendor-8.0.17.css">
+      <publishTime>07/09/2017 09:35:19</publishTime>
+    </File>
+    <File Include="Pages/OperationCourse/ClassSchedule/vendor-8.0.17.js">
+      <publishTime>07/09/2017 11:12:11</publishTime>
+    </File>
+    <File Include="Pages/OperationCourse/Course.html">
+      <publishTime>06/28/2017 11:20:31</publishTime>
+    </File>
+    <File Include="Pages/OperationCourse/Course/autumn.css">
+      <publishTime>06/28/2017 21:36:13</publishTime>
+    </File>
+    <File Include="Pages/OperationCourse/Course/bootstrap.css">
+      <publishTime>06/28/2017 21:36:08</publishTime>
+    </File>
+    <File Include="Pages/OperationCourse/Course/common.css">
+      <publishTime>07/09/2017 09:35:43</publishTime>
+    </File>
+    <File Include="Pages/OperationCourse/Course/es-icon.css">
+      <publishTime>07/09/2017 09:35:43</publishTime>
+    </File>
+    <File Include="Pages/OperationCourse/Course/font-awesome.min.css">
+      <publishTime>07/09/2017 09:35:43</publishTime>
+    </File>
+    <File Include="Pages/OperationCourse/Course/jquery.min.js">
+      <publishTime>07/09/2017 11:12:11</publishTime>
+    </File>
+    <File Include="Pages/OperationCourse/Course/main.css">
+      <publishTime>06/28/2017 21:36:08</publishTime>
+    </File>
+    <File Include="Pages/OperationCourse/demoX1.html">
+      <publishTime>06/27/2017 22:08:20</publishTime>
+    </File>
+    <File Include="Pages/OperationCourse/GetCourse.ashx">
+      <publishTime>07/09/2017 12:08:13</publishTime>
+    </File>
+    <File Include="Pages/OperationCourse/GetCourses.ashx">
+      <publishTime>07/09/2017 15:44:59</publishTime>
+    </File>
+    <File Include="Pages/OrderManagement/CustomerInfoSync.js">
+      <publishTime>01/24/2018 16:49:10</publishTime>
+    </File>
+    <File Include="Pages/OrderManagement/getOrderData.ashx">
+      <publishTime>03/17/2017 16:56:32</publishTime>
+    </File>
+    <File Include="Pages/OrderManagement/ImportOrder.ashx">
+      <publishTime>03/16/2017 10:48:19</publishTime>
+    </File>
+    <File Include="Pages/OrderManagement/ImportOrder.aspx">
+      <publishTime>03/17/2017 09:53:07</publishTime>
+    </File>
+    <File Include="Pages/OrderManagement/QueryOrder.aspx">
+      <publishTime>03/15/2018 09:42:04</publishTime>
+    </File>
+    <File Include="Pages/ProductManagement/AddProduct.ashx">
+      <publishTime>03/20/2017 18:12:55</publishTime>
+    </File>
+    <File Include="Pages/ProductManagement/AddProduct.aspx">
+      <publishTime>03/08/2018 15:13:03</publishTime>
+    </File>
+    <File Include="Pages/ProductManagement/AddProductSku.ashx">
+      <publishTime>03/21/2017 00:10:12</publishTime>
+    </File>
+    <File Include="Pages/ProductManagement/AddProductSku.aspx">
+      <publishTime>03/08/2018 15:13:03</publishTime>
+    </File>
+    <File Include="Pages/ProductManagement/AddProductType.aspx">
+      <publishTime>03/20/2017 14:22:02</publishTime>
+    </File>
+    <File Include="Pages/ProductManagement/DelProduct.aspx">
+      <publishTime>03/20/2017 16:32:06</publishTime>
+    </File>
+    <File Include="Pages/ProductManagement/DelProductSku.aspx">
+      <publishTime>03/21/2017 00:29:20</publishTime>
+    </File>
+    <File Include="Pages/ProductManagement/GetProduct.ashx">
+      <publishTime>03/20/2017 15:43:22</publishTime>
+    </File>
+    <File Include="Pages/ProductManagement/GetSkuData.ashx">
+      <publishTime>03/20/2017 22:05:03</publishTime>
+    </File>
+    <File Include="Pages/ProductManagement/Init_Co_PdType.ashx">
+      <publishTime>03/19/2017 18:10:30</publishTime>
+    </File>
+    <File Include="Pages/ProductManagement/ProductManagement.aspx">
+      <publishTime>03/15/2018 09:42:04</publishTime>
+    </File>
+    <File Include="Pages/ProductManagement/ProductSKU.aspx">
+      <publishTime>03/21/2017 19:14:48</publishTime>
+    </File>
+    <File Include="Pages/PurchasingManagement/PurchasingAddnew.ashx">
+      <publishTime>03/05/2018 16:26:56</publishTime>
+    </File>
+    <File Include="Pages/PurchasingManagement/PurchasingAddnew.aspx">
+      <publishTime>03/12/2018 15:01:11</publishTime>
+    </File>
+    <File Include="Pages/PurchasingManagement/PurchasingAddnewGetData.ashx">
+      <publishTime>03/04/2018 16:41:33</publishTime>
+    </File>
+    <File Include="Pages/PurchasingManagement/PurchasingDelete.aspx">
+      <publishTime>03/08/2018 16:46:15</publishTime>
+    </File>
+    <File Include="Pages/PurchasingManagement/PurchasingGetComponent.ashx">
+      <publishTime>03/05/2018 11:34:04</publishTime>
+    </File>
+    <File Include="Pages/PurchasingManagement/PurchasingManagement.aspx">
+      <publishTime>03/15/2018 09:42:08</publishTime>
+    </File>
+    <File Include="Pages/PurchasingManagement/PurchasingManagementGetData.ashx">
+      <publishTime>03/06/2018 11:23:40</publishTime>
+    </File>
+    <File Include="Pages/PurchasingManagement/test.aspx">
+      <publishTime>03/11/2018 18:23:24</publishTime>
+    </File>
+    <File Include="Pages/StaffManagement/AttendanceManagement.aspx">
+      <publishTime>03/15/2018 09:42:04</publishTime>
+    </File>
+    <File Include="Pages/StaffManagement/EditAttendance.ashx">
+      <publishTime>03/23/2017 16:15:52</publishTime>
+    </File>
+    <File Include="Pages/StaffManagement/EditAttendance.aspx">
+      <publishTime>03/08/2018 15:13:03</publishTime>
+    </File>
+    <File Include="Pages/StaffManagement/EditPassword.aspx">
+      <publishTime>03/07/2018 17:46:11</publishTime>
+    </File>
+    <File Include="Pages/StaffManagement/EditStaff.ashx">
+      <publishTime>03/23/2017 14:01:29</publishTime>
+    </File>
+    <File Include="Pages/StaffManagement/EditStaff.aspx">
+      <publishTime>03/08/2018 15:13:03</publishTime>
+    </File>
+    <File Include="Pages/StaffManagement/GetAttendanceData.ashx">
+      <publishTime>03/23/2017 14:30:03</publishTime>
+    </File>
+    <File Include="Pages/StaffManagement/GetPermission.ashx">
+      <publishTime>03/24/2017 15:13:56</publishTime>
+    </File>
+    <File Include="Pages/StaffManagement/GetStaffData.ashx">
+      <publishTime>03/22/2017 17:21:14</publishTime>
+    </File>
+    <File Include="Pages/StaffManagement/OffJob.aspx">
+      <publishTime>03/22/2017 21:17:08</publishTime>
+    </File>
+    <File Include="Pages/StaffManagement/OnJob.ashx">
+      <publishTime>03/22/2017 22:42:38</publishTime>
+    </File>
+    <File Include="Pages/StaffManagement/OnJob.aspx">
+      <publishTime>03/08/2018 15:13:03</publishTime>
+    </File>
+    <File Include="Pages/StaffManagement/OnOffJob.aspx">
+      <publishTime>03/15/2018 09:42:04</publishTime>
+    </File>
+    <File Include="Pages/StaffManagement/PermissionManagement.aspx">
+      <publishTime>03/02/2018 16:56:10</publishTime>
+    </File>
+    <File Include="Pages/StaffManagement/SetPermission.ashx">
+      <publishTime>03/24/2017 16:41:43</publishTime>
+    </File>
+    <File Include="player/CuSunV4set.xml">
+      <publishTime>06/01/2017 15:09:04</publishTime>
+    </File>
+    <File Include="player/CuSunV4set15.xml">
+      <publishTime>11/20/2016 14:42:59</publishTime>
+    </File>
+    <File Include="player/CuSunV4set16.xml">
+      <publishTime>11/20/2016 14:42:59</publishTime>
+    </File>
+    <File Include="player/CuSunV4set2.xml">
+      <publishTime>11/20/2016 14:42:59</publishTime>
+    </File>
+    <File Include="player/CuSunV4setBlue.xml">
+      <publishTime>11/20/2016 14:47:57</publishTime>
+    </File>
+    <File Include="player/CuSunV4setLive.xml">
+      <publishTime>11/20/2016 14:42:59</publishTime>
+    </File>
+    <File Include="player/CuSunV4setNext.xml">
+      <publishTime>11/20/2016 14:42:59</publishTime>
+    </File>
+    <File Include="player/CuSunV4setRed.xml">
+      <publishTime>11/20/2016 14:49:46</publishTime>
+    </File>
+    <File Include="player/CuSunV4set_BAK_AD_DEMO.xml">
+      <publishTime>11/20/2016 14:42:59</publishTime>
+    </File>
+    <File Include="player/demo1.html">
+      <publishTime>06/01/2017 15:41:57</publishTime>
+    </File>
+    <File Include="player/demo10.html">
+      <publishTime>11/20/2016 14:43:20</publishTime>
+    </File>
+    <File Include="player/demo11.html">
+      <publishTime>06/01/2017 15:45:39</publishTime>
+    </File>
+    <File Include="player/demo12.html">
+      <publishTime>06/01/2017 15:44:37</publishTime>
+    </File>
+    <File Include="player/demo13.html">
+      <publishTime>06/01/2017 15:44:37</publishTime>
+    </File>
+    <File Include="player/demo14.html">
+      <publishTime>11/20/2016 14:42:59</publishTime>
+    </File>
+    <File Include="player/demo15.html">
+      <publishTime>06/01/2017 15:44:37</publishTime>
+    </File>
+    <File Include="player/demo16.html">
+      <publishTime>06/01/2017 15:44:37</publishTime>
+    </File>
+    <File Include="player/demo17.html">
+      <publishTime>06/01/2017 15:44:37</publishTime>
+    </File>
+    <File Include="player/demo18.html">
+      <publishTime>06/01/2017 15:44:37</publishTime>
+    </File>
+    <File Include="player/demo2.html">
+      <publishTime>06/01/2017 15:42:22</publishTime>
+    </File>
+    <File Include="player/demo3.html">
+      <publishTime>06/01/2017 15:44:37</publishTime>
+    </File>
+    <File Include="player/demo4.html">
+      <publishTime>06/01/2017 15:44:37</publishTime>
+    </File>
+    <File Include="player/demo5.html">
+      <publishTime>06/01/2017 15:44:37</publishTime>
+    </File>
+    <File Include="player/demo6.html">
+      <publishTime>06/01/2017 15:44:37</publishTime>
+    </File>
+    <File Include="player/demo7.html">
+      <publishTime>06/01/2017 15:44:37</publishTime>
+    </File>
+    <File Include="player/demo8.html">
+      <publishTime>06/01/2017 15:44:37</publishTime>
+    </File>
+    <File Include="player/demo9.html">
+      <publishTime>06/01/2017 15:44:37</publishTime>
+    </File>
+    <File Include="player/demoX1.html">
+      <publishTime>06/27/2017 18:34:51</publishTime>
+    </File>
+    <File Include="player/demoX2.html">
+      <publishTime>06/01/2017 16:04:36</publishTime>
+    </File>
+    <File Include="player/demoX3.html">
+      <publishTime>06/01/2017 16:04:44</publishTime>
+    </File>
+    <File Include="player/demoX4.html">
+      <publishTime>06/01/2017 16:04:52</publishTime>
+    </File>
+    <File Include="player/images/btn04_demo.gif">
+      <publishTime>11/03/2014 16:54:00</publishTime>
+    </File>
+    <File Include="player/images/btn04_down.gif">
+      <publishTime>11/03/2014 16:54:00</publishTime>
+    </File>
+    <File Include="player/images/common.css">
+      <publishTime>01/17/2016 14:31:12</publishTime>
+    </File>
+    <File Include="player/images/loading.gif">
+      <publishTime>06/04/2013 08:00:00</publishTime>
+    </File>
+    <File Include="player/images/logo.png">
+      <publishTime>05/04/2016 15:24:52</publishTime>
+    </File>
+    <File Include="player/images/logo44x38.png">
+      <publishTime>11/09/2016 17:08:05</publishTime>
+    </File>
+    <File Include="player/images/logoCu.jpg">
+      <publishTime>11/06/2014 13:01:00</publishTime>
+    </File>
+    <File Include="player/images/logoMini.jpg">
+      <publishTime>11/06/2014 13:01:00</publishTime>
+    </File>
+    <File Include="player/images/mini.css">
+      <publishTime>01/17/2016 12:39:58</publishTime>
+    </File>
+    <File Include="player/images/search.jpg">
+      <publishTime>11/06/2014 13:01:00</publishTime>
+    </File>
+    <File Include="player/images/startpic.jpg">
+      <publishTime>11/20/2016 16:18:49</publishTime>
+    </File>
+    <File Include="player/images/startpic.psd">
+      <publishTime>11/20/2016 16:18:35</publishTime>
+    </File>
+    <File Include="player/images/vico.png">
+      <publishTime>11/06/2014 13:01:00</publishTime>
+    </File>
+    <File Include="player/index.html">
+      <publishTime>06/01/2017 15:40:21</publishTime>
+    </File>
+    <File Include="player/index2.html">
+      <publishTime>06/01/2017 16:06:58</publishTime>
+    </File>
+    <File Include="player/js/action.js">
+      <publishTime>11/08/2014 16:58:00</publishTime>
+    </File>
+    <File Include="player/js/AsComV3.min.js">
+      <publishTime>05/04/2016 11:41:25</publishTime>
+    </File>
+    <File Include="player/js/CuSunL1.min.js">
+      <publishTime>06/07/2016 14:19:59</publishTime>
+    </File>
+    <File Include="player/js/CuSunL2.min.js">
+      <publishTime>06/07/2016 14:16:50</publishTime>
+    </File>
+    <File Include="player/js/CuSunX1.min.js">
+      <publishTime>06/07/2016 14:14:15</publishTime>
+    </File>
+    <File Include="player/js/CuSunX2.min.js">
+      <publishTime>06/07/2016 14:16:50</publishTime>
+    </File>
+    <File Include="player/js/CuSunX3.min.js">
+      <publishTime>06/07/2016 14:19:59</publishTime>
+    </File>
+    <File Include="player/js/CuSunX4.min.js">
+      <publishTime>11/08/2014 16:58:00</publishTime>
+    </File>
+    <File Include="player/js/jquery-1.4.2.min.js">
+      <publishTime>02/24/2014 09:45:00</publishTime>
+    </File>
+    <File Include="player/js/jquery172.js">
+      <publishTime>11/08/2014 16:58:00</publishTime>
+    </File>
+    <File Include="player/js/swfobject.js">
+      <publishTime>11/11/2010 14:05:56</publishTime>
+    </File>
+    <File Include="player/listDemo1.html">
+      <publishTime>06/01/2017 16:10:50</publishTime>
+    </File>
+    <File Include="player/listDemo2.html">
+      <publishTime>06/01/2017 16:10:49</publishTime>
+    </File>
+    <File Include="player/listDemo3.html">
+      <publishTime>06/01/2017 16:10:54</publishTime>
+    </File>
+    <File Include="player/listDemo4.html">
+      <publishTime>06/01/2017 16:10:45</publishTime>
+    </File>
+    <File Include="player/LiveL1.html">
+      <publishTime>06/01/2017 16:07:41</publishTime>
+    </File>
+    <File Include="player/LiveL2.html">
+      <publishTime>06/01/2017 16:07:50</publishTime>
+    </File>
+    <File Include="player/other/a300x250_01.jpg">
+      <publishTime>04/15/2016 10:36:47</publishTime>
+    </File>
+    <File Include="player/other/a300x250_01.swf">
+      <publishTime>04/15/2016 10:36:46</publishTime>
+    </File>
+    <File Include="player/other/a300x250_02.jpg">
+      <publishTime>04/15/2016 10:36:46</publishTime>
+    </File>
+    <File Include="player/other/a300x250_02.swf">
+      <publishTime>04/15/2016 10:36:46</publishTime>
+    </File>
+    <File Include="player/other/a400x300_01.swf">
+      <publishTime>04/15/2016 10:36:46</publishTime>
+    </File>
+    <File Include="player/other/a650x400_01.swf">
+      <publishTime>04/15/2016 10:36:45</publishTime>
+    </File>
+    <File Include="player/other/a650x400_02.swf">
+      <publishTime>04/15/2016 10:36:45</publishTime>
+    </File>
+    <File Include="player/other/a730x454_01.jpg">
+      <publishTime>04/15/2016 10:36:45</publishTime>
+    </File>
+    <File Include="player/other/a730x454_02.jpg">
+      <publishTime>04/15/2016 10:36:45</publishTime>
+    </File>
+    <File Include="player/other/a730x454_03.jpg">
+      <publishTime>04/15/2016 10:36:44</publishTime>
+    </File>
+    <File Include="player/other/a730x454_04.jpg">
+      <publishTime>04/15/2016 10:36:44</publishTime>
+    </File>
+    <File Include="player/other/a90x50_01.swf">
+      <publishTime>04/15/2016 10:36:46</publishTime>
+    </File>
+    <File Include="player/other/此目录下文件为广告示例.txt">
+      <publishTime>05/04/2016 15:29:45</publishTime>
+    </File>
+    <File Include="player/pic/pic01.jpg">
+      <publishTime>11/06/2014 13:46:00</publishTime>
+    </File>
+    <File Include="player/pic/pic02.jpg">
+      <publishTime>11/06/2014 13:46:00</publishTime>
+    </File>
+    <File Include="player/pic/pic03.jpg">
+      <publishTime>11/06/2014 13:46:00</publishTime>
+    </File>
+    <File Include="player/pic/pic04.jpg">
+      <publishTime>11/06/2014 13:46:00</publishTime>
+    </File>
+    <File Include="player/pic/pic05.jpg">
+      <publishTime>11/06/2014 13:46:00</publishTime>
+    </File>
+    <File Include="player/pic/pic06.jpg">
+      <publishTime>11/06/2014 13:46:00</publishTime>
+    </File>
+    <File Include="player/pic/pic07.jpg">
+      <publishTime>11/06/2014 13:46:00</publishTime>
+    </File>
+    <File Include="player/pic/pic08.jpg">
+      <publishTime>11/06/2014 13:46:00</publishTime>
+    </File>
+    <File Include="player/pic/pic09.jpg">
+      <publishTime>11/06/2014 13:46:00</publishTime>
+    </File>
+    <File Include="player/pic/pic10.jpg">
+      <publishTime>11/06/2014 13:46:00</publishTime>
+    </File>
+    <File Include="player/pic/此目录下文件为结束示例图片.txt">
+      <publishTime>05/04/2016 15:28:43</publishTime>
+    </File>
+    <File Include="player/player.swf">
+      <publishTime>06/01/2017 15:02:24</publishTime>
+    </File>
+    <File Include="player/setForShare.xml">
+      <publishTime>05/17/2017 11:44:30</publishTime>
+    </File>
+    <File Include="player/style.css">
+      <publishTime>09/24/2015 17:25:02</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/18/2018 09:39:02</publishTime>
+    </File>
+    <File Include="淘宝运营课程/基础运营班/课时1 《店铺定位和选款》 .mp4">
+      <publishTime>07/08/2017 20:28:34</publishTime>
+    </File>
+    <File Include="淘宝运营课程/基础运营班/课时10 《淘宝客的基础设置》 .mp4">
+      <publishTime>07/08/2017 20:32:07</publishTime>
+    </File>
+    <File Include="淘宝运营课程/基础运营班/课时11 《生意参谋的使用方法》 .mp4">
+      <publishTime>07/08/2017 20:32:48</publishTime>
+    </File>
+    <File Include="淘宝运营课程/基础运营班/课时12 《聚划算和运营面试技巧》 .mp4">
+      <publishTime>07/08/2017 20:33:06</publishTime>
+    </File>
+    <File Include="淘宝运营课程/基础运营班/课时13 《钻石展位》 .mp4">
+      <publishTime>07/08/2017 20:32:33</publishTime>
+    </File>
+    <File Include="淘宝运营课程/基础运营班/课时14 《双11报名规则》 .mp4">
+      <publishTime>07/08/2017 20:32:22</publishTime>
+    </File>
+    <File Include="淘宝运营课程/基础运营班/课时2 《如何制作标题》 .mp4">
+      <publishTime>07/08/2017 20:28:44</publishTime>
+    </File>
+    <File Include="淘宝运营课程/基础运营班/课时3 《店铺基本装修以及如何拿新品标》 .mp4">
+      <publishTime>07/08/2017 20:29:45</publishTime>
+    </File>
+    <File Include="淘宝运营课程/基础运营班/课时4 《淘宝的各种技巧分享》 .mp4">
+      <publishTime>07/08/2017 20:29:20</publishTime>
+    </File>
+    <File Include="淘宝运营课程/基础运营班/课时5 《淘宝活动的各种技巧分享》 .mp4">
+      <publishTime>07/08/2017 20:29:34</publishTime>
+    </File>
+    <File Include="淘宝运营课程/基础运营班/课时6 《直通车基础》 .mp4">
+      <publishTime>07/08/2017 20:29:40</publishTime>
+    </File>
+    <File Include="淘宝运营课程/基础运营班/课时7 《直通车的计划创建》 .mp4">
+      <publishTime>07/08/2017 20:30:06</publishTime>
+    </File>
+    <File Include="淘宝运营课程/基础运营班/课时8 《直通车技巧与维护》 .mp4">
+      <publishTime>07/08/2017 20:30:27</publishTime>
+    </File>
+    <File Include="淘宝运营课程/基础运营班/课时9 《直通车后台维护》 .mp4">
+      <publishTime>07/08/2017 20:30:37</publishTime>
+    </File>
+    <File Include="淘宝运营课程/太子高级运营课/课时2 太子高级运营课《钻石展位》7.23日 .mp4">
+      <publishTime>07/08/2017 18:49:10</publishTime>
+    </File>
+    <File Include="淘宝运营课程/太子高级运营课/课时3 太子高级运营课《双11报名规则》7.26 .mp4">
+      <publishTime>07/08/2017 18:49:21</publishTime>
+    </File>
+    <File Include="淘宝运营课程/推广班第三期%282016-5月%29/16.爆款操作之爆爆爆上.mp4">
+      <publishTime>07/08/2017 22:34:14</publishTime>
+    </File>
+    <File Include="淘宝运营课程/推广班第三期%282016-5月%29/课时1 1.10日 初级班课程第三期第一节《聊聊电商--天机老人》 .mp4">
+      <publishTime>07/08/2017 19:31:16</publishTime>
+    </File>
+    <File Include="淘宝运营课程/推广班第三期%282016-5月%29/课时10 2.22日 初级班课程第三期第十节《直通车基础课程--天机老人》.mp4">
+      <publishTime>07/08/2017 19:33:21</publishTime>
+    </File>
+    <File Include="淘宝运营课程/推广班第三期%282016-5月%29/课时11 2.25日 初级班课程第三期第十一节《直通车课程2--天机老人》.mp4">
+      <publishTime>07/08/2017 19:33:58</publishTime>
+    </File>
+    <File Include="淘宝运营课程/推广班第三期%282016-5月%29/课时12 2.28日初级班课程第三期第十二节《直通车课程3--天机老人》.mp4">
+      <publishTime>07/08/2017 19:33:59</publishTime>
+    </File>
+    <File Include="淘宝运营课程/推广班第三期%282016-5月%29/课时13 2.4日 初级班课程第三期第十三节《主图和详情页布局--天机老人》.mp4">
+      <publishTime>07/08/2017 19:34:08</publishTime>
+    </File>
+    <File Include="淘宝运营课程/推广班第三期%282016-5月%29/课时14 3.7日 初级班课程第三期第十四节《新品第一节 理论逻辑》.wmv">
+      <publishTime>07/08/2017 20:20:45</publishTime>
+    </File>
+    <File Include="淘宝运营课程/推广班第三期%282016-5月%29/课时15 3.9日 初级班课程第三期第十五节《新品第二节，新品实操》.mp4">
+      <publishTime>07/08/2017 19:33:35</publishTime>
+    </File>
+    <File Include="淘宝运营课程/推广班第三期%282016-5月%29/课时17 3.14日 初级班课程第三期第十六节《爆款操作之爆爆爆下》.wmv">
+      <publishTime>07/08/2017 19:53:13</publishTime>
+    </File>
+    <File Include="淘宝运营课程/推广班第三期%282016-5月%29/课时18 3.17 天机《如何利用直播引爆单品》.wmv">
+      <publishTime>07/08/2017 22:52:20</publishTime>
+    </File>
+    <File Include="淘宝运营课程/推广班第三期%282016-5月%29/课时19 第十九节利用淘宝达人打破流量瓶颈 .mp4">
+      <publishTime>07/08/2017 19:35:17</publishTime>
+    </File>
+    <File Include="淘宝运营课程/推广班第三期%282016-5月%29/课时2 1.12日 初级班课程第三期第二节《市场选择原理--天机老人》.mp4">
+      <publishTime>07/08/2017 19:30:57</publishTime>
+    </File>
+    <File Include="淘宝运营课程/推广班第三期%282016-5月%29/课时20 第二十节 利用淘金币让新品权重裂变！ .mp4">
+      <publishTime>07/08/2017 19:35:05</publishTime>
+    </File>
+    <File Include="淘宝运营课程/推广班第三期%282016-5月%29/课时21 第二十一节 利用淘宝客如何快递起量 .mp4">
+      <publishTime>07/08/2017 19:35:24</publishTime>
+    </File>
+    <File Include="淘宝运营课程/推广班第三期%282016-5月%29/课时22 3.25 天机--让你成为店铺的分析专家 .mp4">
+      <publishTime>07/08/2017 19:36:12</publishTime>
+    </File>
+    <File Include="淘宝运营课程/推广班第三期%282016-5月%29/课时23 3.29 天机打造100%25完美金牌客服 .mp4">
+      <publishTime>07/08/2017 19:36:29</publishTime>
+    </File>
+    <File Include="淘宝运营课程/推广班第三期%282016-5月%29/课时24 3.30 天机《直通车常见问题答疑》 .mp4">
+      <publishTime>07/08/2017 19:37:39</publishTime>
+    </File>
+    <File Include="淘宝运营课程/推广班第三期%282016-5月%29/课时25 微淘 .mp4">
+      <publishTime>07/08/2017 19:37:21</publishTime>
+    </File>
+    <File Include="淘宝运营课程/推广班第三期%282016-5月%29/课时26 第26节 4.6天天特价 .mp4">
+      <publishTime>07/08/2017 19:37:30</publishTime>
+    </File>
+    <File Include="淘宝运营课程/推广班第三期%282016-5月%29/课时27 第27节分析竞争对手 .mp4">
+      <publishTime>07/08/2017 19:38:05</publishTime>
+    </File>
+    <File Include="淘宝运营课程/推广班第三期%282016-5月%29/课时28 第二十八节电商--团队管理 .mp4">
+      <publishTime>07/08/2017 19:38:03</publishTime>
+    </File>
+    <File Include="淘宝运营课程/推广班第三期%282016-5月%29/课时29 第二十九节 4.15天机带你玩钻展上 .mp4">
+      <publishTime>07/08/2017 19:38:14</publishTime>
+    </File>
+    <File Include="淘宝运营课程/推广班第三期%282016-5月%29/课时3 1.14日 初级班课程第三期第三节《如何在红海种选择蓝海产品--天机老人》.mp4">
+      <publishTime>07/08/2017 19:32:24</publishTime>
+    </File>
+    <File Include="淘宝运营课程/推广班第三期%282016-5月%29/课时30 4.15钻展实操 .mp4">
+      <publishTime>07/08/2017 19:38:20</publishTime>
+    </File>
+    <File Include="淘宝运营课程/推广班第三期%282016-5月%29/课时4 1.17日 初级班课程第三期第四节《如何做一个特色店铺--天机老人》.mp4">
+      <publishTime>07/08/2017 19:32:09</publishTime>
+    </File>
+    <File Include="淘宝运营课程/推广班第三期%282016-5月%29/课时5 1.19日 初级班课程第三期第五节《阶段性总结--天机老人》.mp4">
+      <publishTime>07/08/2017 19:32:07</publishTime>
+    </File>
+    <File Include="淘宝运营课程/推广班第三期%282016-5月%29/课时6 2.7日 初级班课程第三期第六节《2017新变化--天机老人》.mp4">
+      <publishTime>07/08/2017 19:32:45</publishTime>
+    </File>
+    <File Include="淘宝运营课程/推广班第三期%282016-5月%29/课时7 2.9日 初级班课程第三期第七节《如何做好标题--天机老人》.mp4">
+      <publishTime>07/08/2017 19:33:04</publishTime>
+    </File>
+    <File Include="淘宝运营课程/推广班第三期%282016-5月%29/课时8 2.14日 初级班课程第三期第八节《宝贝搜索权重解析--天机老人》.mp4">
+      <publishTime>07/08/2017 19:32:48</publishTime>
+    </File>
+    <File Include="淘宝运营课程/推广班第三期%282016-5月%29/课时9 2.16日 初级班课程第三期第九节《拿到上万搜索的流量布局--天机老人》.wmv">
+      <publishTime>07/08/2017 19:59:03</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝A计划/课时15 《A计划前期准备工作》 .mp4">
+      <publishTime>07/08/2017 20:12:26</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝A计划/课时16 《A计划 如何发布精品宝贝》 .mp4">
+      <publishTime>07/08/2017 20:12:29</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝A计划/课时17 《A计划 做标题如何找词》 .mp4">
+      <publishTime>07/08/2017 20:14:55</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝A计划/课时18 《A计划 如何做一个优质的宝贝标题》 .mp4">
+      <publishTime>07/08/2017 20:15:11</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝A计划/课时19 《A计划 淘宝的小技巧分享》 .mp4">
+      <publishTime>07/08/2017 20:16:29</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝A计划/课时20 《A计划 上下架时间优化和自我诊断》 .mp4">
+      <publishTime>07/08/2017 20:12:09</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝A计划/课时21 《A计划 店铺装修的基础方法》 .mp4">
+      <publishTime>07/08/2017 20:16:20</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝A计划/课时22 《A计划　影响权重的因素》 .mp4">
+      <publishTime>07/08/2017 20:16:32</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝A计划/课时23 《A计划 快速提升店铺宝贝的权重》 .mp4">
+      <publishTime>07/08/2017 20:15:06</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝A计划/课时24 《A计划 利用28天新品期打造爆款》 .mp4">
+      <publishTime>07/08/2017 20:18:02</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝A计划/课时25 《A计划的理论基础和规则支持》 .mp4">
+      <publishTime>07/08/2017 20:16:48</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝A计划/课时26 《A计划 多维度进店和多关键词转化技巧》 .mp4">
+      <publishTime>07/08/2017 20:17:39</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝A计划/课时27 《A计划操作过程中问题处理》 .mp4">
+      <publishTime>07/08/2017 20:18:10</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝A计划/课时28 《A计划 天天特价活动》 .mp4">
+      <publishTime>07/08/2017 20:18:42</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝A计划/课时29 《A计划 淘抢购淘金币活动报名技巧》 .mp4">
+      <publishTime>07/08/2017 20:18:15</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝A计划/课时30 《A计划 营销中心和第三方活动详解》 .mp4">
+      <publishTime>07/08/2017 20:18:25</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝A计划/课时31 《A计划 如何用活动带动全店销量》 .mp4">
+      <publishTime>07/08/2017 20:18:52</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝A计划/课时32 《A计划 直通车后台及基础知识介绍》.mp4">
+      <publishTime>07/08/2017 20:22:40</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝A计划/课时33 《A计划 直通车如何选词和出价》 .mp4">
+      <publishTime>07/08/2017 20:23:08</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝A计划/课时34 《A计划 提高直通车的质量分》 .mp4">
+      <publishTime>07/08/2017 20:23:19</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝A计划/课时35 《A计划 直通车的维护操作 》 .mp4">
+      <publishTime>07/08/2017 20:23:11</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝A计划/课时36 《A计划 淘宝客》 .mp4">
+      <publishTime>07/08/2017 20:23:54</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝A计划/课时37 《A计划 生意参谋功能详解析》 .mp4">
+      <publishTime>07/08/2017 20:23:39</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝A计划/课时38 《A计划 淘宝无线端店铺装修以及设置》 .mp4">
+      <publishTime>07/08/2017 20:24:52</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝A计划/课时39 《A计划 无线端标题制作和权重提升》 .mp4">
+      <publishTime>07/08/2017 20:24:37</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝A计划/课时40 《A计划 二十二期总结课程》 .mp4">
+      <publishTime>07/08/2017 20:25:21</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝班二十三期/课时1 末宝班二十三期第一节《淘宝网构成》7.16日 .mp4">
+      <publishTime>07/08/2017 18:53:28</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝班二十三期/课时2 末宝班二十三期第二节《如何能够让产品销售出去》7.19.mp4">
+      <publishTime>07/08/2017 18:54:01</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝班二十三期/课时3 末宝班二十三期第三节《直通车新方法【七月更新】》7.22日.mp4">
+      <publishTime>07/08/2017 18:53:40</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝班二十三期/课时4 末宝班二十三期第四节《天天特价与聚划算》7.23日 .mp4">
+      <publishTime>07/08/2017 18:53:57</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝班二十三期/课时5 末宝班二十三期第五节《如何学会做预算运营》7.26日 .mp4">
+      <publishTime>07/08/2017 18:53:59</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝班二十三期/课时6 末宝班二十三期第六节《钻石展位第一期--基础教程》7.28日.mp4">
+      <publishTime>07/08/2017 18:54:46</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝班二十三期/课时7 末宝班二十三期第七节《钻石展位第二期》7.30日 .mp4">
+      <publishTime>07/08/2017 18:57:11</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝班二十三期/课时8 末宝班二十三期第八节《手淘流量来源及详情页策划》 8.2日.mp4">
+      <publishTime>07/08/2017 18:56:41</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝班二十三期/课时9 末宝班二十三期第九节《问题解答》 8.4日 .mp4">
+      <publishTime>07/08/2017 18:56:49</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝班二十二期/课时1 末宝班二十二期第一节精品课程《新老直通车的玩法及优化》5.14日.mp4">
+      <publishTime>07/08/2017 17:16:58</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝班二十二期/课时10 末宝班二十二期第十一节精品课程《末宝教你玩淘宝客》6.16日.mp4">
+      <publishTime>07/08/2017 17:46:21</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝班二十二期/课时11 末宝班二十二期第十二节精品课程《6.18活动后如何稳定、提升排名》6.18日.mp4">
+      <publishTime>07/08/2017 17:47:00</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝班二十二期/课时12 末宝班二十二期第十三节精品课程《如何在报名活动前提升产品权重》6.23日.mp4">
+      <publishTime>07/08/2017 17:47:37</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝班二十二期/课时13 末宝班二十二期第十四节精品课程《转化率的提升》6.25日.mp4">
+      <publishTime>07/08/2017 17:47:33</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝班二十二期/课时14 末宝班二十二期第十五节精品课程《新手机端标题优化》6.30日.mp4">
+      <publishTime>07/08/2017 17:47:47</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝班二十二期/课时15 末宝班二十二期第十六节精品课程《直通车实操课》7.2日.mp4">
+      <publishTime>07/08/2017 17:48:31</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝班二十二期/课时16 末宝班二十二期第十七节精品课程《新手快速打造店铺权重》7.5日.mp4">
+      <publishTime>07/08/2017 17:49:10</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝班二十二期/课时17 末宝班二十二期第十八节精品课程《选款与测款》7.9日.mp4">
+      <publishTime>07/08/2017 17:49:28</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝班二十二期/课时18 末宝班二十二期第十九节精品课程《自然搜索排名如何用直通车打造》7.12日.mp4">
+      <publishTime>07/08/2017 17:49:45</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝班二十二期/课时2 末宝班二十二期第二节精品课程《淘宝新规与6.18大促预热》5.17日.mp4">
+      <publishTime>07/08/2017 17:18:34</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝班二十二期/课时3 末宝班二十二期第三节精品课程《天天特价活动90%25》5.19日.mp4">
+      <publishTime>07/08/2017 17:20:15</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝班二十二期/课时4 末宝班二十二期第四节精品课程《实操直通车优化》5.21日.mp4">
+      <publishTime>07/08/2017 17:19:13</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝班二十二期/课时5 末宝班二十二期第五节精品课程《新4天上首页》5.28日 .mp4">
+      <publishTime>07/08/2017 17:19:27</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝班二十二期/课时6 末宝班二十二期第六节精品课程《华山论车》5.31日.mp4.mp4">
+      <publishTime>07/08/2017 17:45:51</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝班二十二期/课时7 末宝班二十二期第七节精品课程《全系列课程讲解》6.2日.mp4">
+      <publishTime>07/08/2017 17:45:12</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝班二十二期/课时8 末宝班二十二期第八节精品课程《新版直通车全解》6.7日.mp4">
+      <publishTime>07/08/2017 17:45:46</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝班二十二期/课时9 末宝班二十二期第十节精品课程《新版复合权重上升》6.14日.mp4">
+      <publishTime>07/08/2017 17:46:04</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝班分享课程/课时12 末宝班二十二期第十三节精品课程《如何在报名活动前提升产品权重》6.23日.mp4">
+      <publishTime>07/08/2017 18:50:53</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝班分享课程/课时2 星辰老师分享课【免费搜索权重】6.21 .mp4">
+      <publishTime>07/08/2017 18:51:10</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝班末氏R计划/课时1 末宝班末氏R计划方法第一节《主图制作》4.21 .mp4">
+      <publishTime>07/08/2017 18:37:07</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝班末氏R计划/课时2 末宝班末氏R计划方法第二节课《标题课程》4.26 .mp4">
+      <publishTime>07/08/2017 18:37:49</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝班末氏R计划/课时3 末宝班末氏R计划方法第三节课《选款课程》 5.3 .mp4">
+      <publishTime>07/08/2017 18:39:11</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝班末氏R计划/课时4 末宝班末氏R计划方法第四节课《详情页制作》 5.8 .mp4">
+      <publishTime>07/08/2017 18:39:21</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝班末氏R计划/课时5 末宝班末氏R计划方法第五节课《上下架时间与新品发布》 5.10.mp4">
+      <publishTime>07/08/2017 18:39:02</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝班末氏R计划/课时6 末宝班末氏R计划方法第六节课《自然搜索与美工分享》 5.12.mp4">
+      <publishTime>07/08/2017 18:40:35</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝班末氏R计划/课时7 末宝班末氏R计划方法第七节《自然搜索提升》5.24 .mp4">
+      <publishTime>07/08/2017 18:39:32</publishTime>
+    </File>
+    <File Include="淘宝运营课程/末宝班末氏R计划/课时8 末宝班二十二期第八节精品课程《新版直通车全解》6.7日.mp4">
+      <publishTime>07/08/2017 18:40:03</publishTime>
+    </File>
+    <File Include="淘宝运营课程/标题优化课程/课时1 逍遥班十六期第七节《完美标题制作》4.22日 .mp4">
+      <publishTime>07/08/2017 17:53:54</publishTime>
+    </File>
+    <File Include="淘宝运营课程/标题优化课程/课时2 逍遥班十六期第七节《完美标题制作》4.22日 .mp4">
+      <publishTime>07/08/2017 17:53:58</publishTime>
+    </File>
+    <File Include="淘宝运营课程/淘桃电商学院官网 - 淘宝卖家学习基地.png">
+      <publishTime>07/08/2017 18:00:35</publishTime>
+    </File>
+    <File Include="淘宝运营课程/直通车课程/课时1 3月19日下午末宝YY分享《直通车》.mp4">
+      <publishTime>07/08/2017 16:11:02</publishTime>
+    </File>
+    <File Include="淘宝运营课程/直通车课程/课时10 逍遥班十七期十七节《直通车提升质量得分技巧》8.1.mp4">
+      <publishTime>07/08/2017 16:29:39</publishTime>
+    </File>
+    <File Include="淘宝运营课程/直通车课程/课时11 太子班十八期第十二节《直通车基础知识》9.18日.mp4">
+      <publishTime>07/08/2017 16:33:48</publishTime>
+    </File>
+    <File Include="淘宝运营课程/直通车课程/课时12 太子班十八期第十三节《直通车如何选词删词》9.19日.mp4">
+      <publishTime>07/08/2017 16:34:09</publishTime>
+    </File>
+    <File Include="淘宝运营课程/直通车课程/课时13 太子班十九期十二节《直通车》11.20日.mp4">
+      <publishTime>07/08/2017 16:34:54</publishTime>
+    </File>
+    <File Include="淘宝运营课程/直通车课程/课时2 逍遥班十六期第二节《直通车选词》4.8日 .mp4">
+      <publishTime>07/08/2017 16:14:56</publishTime>
+    </File>
+    <File Include="淘宝运营课程/直通车课程/课时3 逍遥班十六期第五节《直通车诊断》4.15日 .mp4">
+      <publishTime>07/08/2017 16:19:18</publishTime>
+    </File>
+    <File Include="淘宝运营课程/直通车课程/课时4 逍遥班十六期第十二节《直通车的几种玩法》5.11日.mp4">
+      <publishTime>07/08/2017 16:23:54</publishTime>
+    </File>
+    <File Include="淘宝运营课程/直通车课程/课时5 逍遥班十六期十七节《无线端直通车》5.27日 .mp4">
+      <publishTime>07/08/2017 16:24:02</publishTime>
+    </File>
+    <File Include="淘宝运营课程/直通车课程/课时6 逍遥班十七期第十三节《直通车基础操作技巧》7.24日 .mp4">
+      <publishTime>07/08/2017 16:24:37</publishTime>
+    </File>
+    <File Include="淘宝运营课程/直通车课程/课时7 逍遥班十七期第十四节《直通车选词与养词》7.25日 .mp4">
+      <publishTime>07/08/2017 16:25:50</publishTime>
+    </File>
+    <File Include="淘宝运营课程/直通车课程/课时8 逍遥班十七班第十五节《直通车提升质量得分》7.28日.mp4">
+      <publishTime>07/08/2017 16:36:45</publishTime>
+    </File>
+    <File Include="淘宝运营课程/直通车课程/课时9 逍遥班十七期十六节《无线端直通车详解》7.30日 .mp4">
+      <publishTime>07/08/2017 16:26:40</publishTime>
+    </File>
+    <File Include="淘宝运营课程/高级班第三期-肖潇/课时1 高级班课程第三期第一节课----《启蒙课【肖潇】》12.13 .mp4">
+      <publishTime>07/08/2017 19:00:30</publishTime>
+    </File>
+    <File Include="淘宝运营课程/高级班第三期-肖潇/课时10 高级班课程第三期第十节课----《转化率【肖潇】》1.5 .mp4">
+      <publishTime>07/08/2017 19:03:00</publishTime>
+    </File>
+    <File Include="淘宝运营课程/高级班第三期-肖潇/课时11 高级班课程第三期第十一节课----《权重【肖潇】》1.9 .mp4">
+      <publishTime>07/08/2017 19:03:18</publishTime>
+    </File>
+    <File Include="淘宝运营课程/高级班第三期-肖潇/课时12 高级班课程第三期第十二节课----《问大家【肖潇】》1.10.mp4">
+      <publishTime>07/08/2017 19:03:29</publishTime>
+    </File>
+    <File Include="淘宝运营课程/高级班第三期-肖潇/课时13 高级班课程第三期第十三节课----《新款操作步骤【肖潇】》1.12.mp4">
+      <publishTime>07/08/2017 19:04:26</publishTime>
+    </File>
+    <File Include="淘宝运营课程/高级班第三期-肖潇/课时14 高级班课程第三期第十四节课----《CRM【肖潇】》1.14.mp4">
+      <publishTime>07/08/2017 19:04:19</publishTime>
+    </File>
+    <File Include="淘宝运营课程/高级班第三期-肖潇/课时15 高级班课程第三期第十五节课----《问题解答【肖潇】》1.17.mp4">
+      <publishTime>07/08/2017 19:04:50</publishTime>
+    </File>
+    <File Include="淘宝运营课程/高级班第三期-肖潇/课时16 课时15：高级班课程第三期第十六节课----《问题解答【肖潇】》1.19.mp4">
+      <publishTime>07/08/2017 19:05:19</publishTime>
+    </File>
+    <File Include="淘宝运营课程/高级班第三期-肖潇/课时2 高级班课程第三期第二节课----《SEO-1【肖潇】》12.19 .mp4">
+      <publishTime>07/08/2017 19:00:25</publishTime>
+    </File>
+    <File Include="淘宝运营课程/高级班第三期-肖潇/课时3 高级班课程第三期第三节课----《SEO-2【肖潇】》12.20 .mp4">
+      <publishTime>07/08/2017 19:01:12</publishTime>
+    </File>
+    <File Include="淘宝运营课程/高级班第三期-肖潇/课时4 课时3：高级班课程第三期第四节课----《SEO-3【肖潇】》12.22.mp4">
+      <publishTime>07/08/2017 19:01:00</publishTime>
+    </File>
+    <File Include="淘宝运营课程/高级班第三期-肖潇/课时5 高级班课程第三期第五节课----《人群定位【肖潇】》12.24.mp4">
+      <publishTime>07/08/2017 19:01:09</publishTime>
+    </File>
+    <File Include="淘宝运营课程/高级班第三期-肖潇/课时6 课时5：高级班课程第三期第六节课----《直通车【肖潇】》12.28.mp4">
+      <publishTime>07/08/2017 19:02:04</publishTime>
+    </File>
+    <File Include="淘宝运营课程/高级班第三期-肖潇/课时7 高级班课程第三期第七节课----《直通车2【肖潇】》12.29.mp4">
+      <publishTime>07/08/2017 19:02:15</publishTime>
+    </File>
+    <File Include="淘宝运营课程/高级班第三期-肖潇/课时8 高级班课程第三期第八节课----《直通车3【肖潇】》12.31.mp4">
+      <publishTime>07/08/2017 19:03:08</publishTime>
+    </File>
+    <File Include="淘宝运营课程/高级班第三期-肖潇/课时9 高级班课程第三期第九节课----《问题解答【肖潇】》1.3 .mp4">
+      <publishTime>07/08/2017 19:02:42</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+	hideDotFiles = dotGitOnly
+[remote "KINS-SYSTEM"]
+	url = https://github.com/WongBaba/KINS-SYSTEM.git
+	fetch = +refs/heads/*:refs/remotes/KINS-SYSTEM/*
+[gui]
+	wmstate = normal
+	geometry = 799x475+104+104 159 214

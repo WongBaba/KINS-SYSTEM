@@ -1,0 +1,482 @@
+﻿<!DOCTYPE html>
+<!-- saved from url=(0061)http://www.121665.com/index.php/Home/Course/detail/id/47.html -->
+<html lang="zh_CN">
+<!--<![endif]-->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script src="../../JS/jquery-2.0.0.js"></script>
+    <style type="text/css">
+        .ps-container .ps-scrollbar-x-rail {
+            position: absolute;
+            bottom: 3px;
+            height: 8px;
+            border-radius: 4px;
+            opacity: 0;
+            filter: alpha(opacity=0);
+            transition: background-color .2s linear,opacity .2s linear
+        }
+
+        .ps-container.hover .ps-scrollbar-x-rail, .ps-container:hover .ps-scrollbar-x-rail {
+            opacity: .6;
+            filter: alpha(opacity=60)
+        }
+
+        .ps-container .ps-scrollbar-x-rail.hover, .ps-container .ps-scrollbar-x-rail:hover {
+            background-color: #eee;
+            opacity: .9;
+            filter: alpha(opacity=90)
+        }
+
+        .ps-container .ps-scrollbar-x-rail.in-scrolling {
+            opacity: .9;
+            filter: alpha(opacity=90)
+        }
+
+        .ps-container .ps-scrollbar-y-rail {
+            position: absolute;
+            right: 3px;
+            width: 8px;
+            border-radius: 4px;
+            opacity: 0;
+            filter: alpha(opacity=0);
+            transition: background-color .2s linear,opacity .2s linear
+        }
+
+        .ps-container.hover .ps-scrollbar-y-rail, .ps-container:hover .ps-scrollbar-y-rail {
+            opacity: .6;
+            filter: alpha(opacity=60)
+        }
+
+        .ps-container .ps-scrollbar-y-rail.hover, .ps-container .ps-scrollbar-y-rail:hover {
+            background-color: #eee;
+            opacity: .9;
+            filter: alpha(opacity=90)
+        }
+
+        .ps-container .ps-scrollbar-y-rail.in-scrolling {
+            opacity: .9;
+            filter: alpha(opacity=90)
+        }
+
+        .ps-container .ps-scrollbar-x {
+            position: absolute;
+            bottom: 0;
+            height: 8px;
+            background-color: #aaa;
+            border-radius: 4px;
+            transition: background-color .2s linear
+        }
+
+        .ps-container.ie6 .ps-scrollbar-x {
+            font-size: 0
+        }
+
+        .ps-container .ps-scrollbar-x-rail.hover .ps-scrollbar-x, .ps-container .ps-scrollbar-x-rail:hover .ps-scrollbar-x {
+            background-color: #999
+        }
+
+        .ps-container .ps-scrollbar-y {
+            position: absolute;
+            right: 0;
+            width: 8px;
+            background-color: #aaa;
+            border-radius: 4px;
+            transition: background-color .2s linear
+        }
+
+        .ps-container.ie6 .ps-scrollbar-y {
+            font-size: 0
+        }
+
+        .ps-container .ps-scrollbar-y-rail.hover .ps-scrollbar-y, .ps-container .ps-scrollbar-y-rail:hover .ps-scrollbar-y {
+            background-color: #999
+        }
+
+        .ps-container.ie .ps-scrollbar-x, .ps-container.ie .ps-scrollbar-y {
+            visibility: hidden
+        }
+
+        .ps-container.ie.hover .ps-scrollbar-x, .ps-container.ie.hover .ps-scrollbar-y, .ps-container.ie:hover .ps-scrollbar-x, .ps-container.ie:hover .ps-scrollbar-y {
+            visibility: visible
+        }
+    </style>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>金视照明官网 - 淘宝卖家学习基地</title>
+    <meta name="keywords" content="
+            ">
+    <meta name="description" content="这里是课程介绍">
+    <meta content="GQgg4plwjv4rC2I9zgTu7wkaVuEOdZ36SzVCzqeWknE" name="csrf-token">
+    <meta content="0" name="is-login">
+    <meta content="0" name="is-open">
+    <!--[if lt IE 9]>
+      <script src="/static-dist/libs/html5shiv.js?8.0.17"></script>
+      <script src="/static-dist/es5-shim/es5-shim.js?8.0.17"></script>
+      <script src="/static-dist/es5-shim/es5-sham.js?8.0.17"></script>
+    <![endif]-->
+    <link href="./ClassSchedule/vendor-8.0.17.css" rel="stylesheet">
+    <link href="./ClassSchedule/app-bootstrap-8.0.17.css" rel="stylesheet">
+    <link href="./ClassSchedule/main-8.0.17.css" rel="stylesheet">
+    <link href="./ClassSchedule/main-8.0.17(1).css" rel="stylesheet">
+    <style type="text/css">
+        .task-list li {
+            cursor:pointer;
+        }
+    </style>
+    <script>
+        $(function () {
+            $("#class").html(getUrlParam("class"));
+            var data = new Object();
+            data.path = "/淘宝运营课程/" + getUrlParam("class");
+            $.post("GetCourses.ashx", { data: JSON.stringify(data) },
+                function (datas) {
+                    var course = datas.split("|");
+                    for (var i = 0; i < course.length; i++) {
+                        var courseList = "<li class='task-item task-content mouse-control'><a class='title' course='" + course[i] + "' style='margin-top:-8px'>" + course[i].replace(".mp4","")+"</a>" +
+                            "<span class='right-menu color-gray  mouse-leave '><i class='es-icon es-icon es-icon es-icon-videoclass' data-toggle='tooltip' data-placement='top' title='' data-original-title='课时' data-container='body'></i></span></li >"
+                        $(".task-list").append(courseList);
+                    }
+
+                    $(".task-list .title").click(function () {
+                        window.open("Course.html?class=" + getUrlParam("class") + "&course=" + $(this).attr("course"));
+                    })
+                });
+        })
+        function getUrlParam(name) {
+            var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+            var r = window.location.search.substr(1).match(reg);
+            if (r != null) return decodeURI(r[2]); return null;
+        }
+    </script>
+</head>
+<body class="es-main-theme es-nav-default course-dashboard-page">
+    <div class="es-wrap">
+        <!-- 导航 -->
+        <!--<header class="light-header">
+            <nav class="navbar navbar-inverse light-navbar light-navbar-transparent navbar-fixed-top">
+                <div class="navbar-headers">
+                    <a tag="http://www.121665.com/" class="navbar-brand">
+                        金视照明
+                    </a>
+                    <ul class="nav navbar-nav hidden-xs hidden-sm">
+                        <li class="nav-list">
+                            <a tag="http://www.121665.com/">
+                                首页
+                            </a>
+                        </li>
+                        <li class="dropdown nav-list">
+                            <a tag="http://www.121665.com/index.php/Home/Course/category/cid/0.html" class="dropdown-toggle">
+                                课程中心
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navbar-collapse pull-right">
+                    <ul class="nav user-nav mrxl" id="min-hid">
+                        <li>
+                            <a tag="http://www.121665.com/index.php/Home/Index/login.html">
+                                登录
+                            </a>
+                        </li>
+                        <li>
+                            <a tag="http://www.121665.com/index.php/Home/Index/register.html">注册</a>
+                        </li>
+
+                        <script>
+                            $(document).ready(function () {
+
+
+                                $("#nav-fir li a").mouseover(function () {
+                                    $("#nav-fir li a").css("color", "#333");
+                                    $(this).css("color", "#ffa955");
+                                })
+
+                                $("#nav-fir li a").mouseout(function () {
+                                    $(this).css("color", "#333");
+                                })
+                                //导航栏点击菜单弹框
+                                $(".vip-cou").on("click", "", function (e) {
+                                    if ($(".vip-nav").css("display") == "none") {
+                                        $(".vip-nav").show();
+                                    } else {
+                                        $(".vip-nav").hide();
+                                    }
+                                    $(document).one("click", function () {
+                                        $(".vip-nav").hide();
+                                    });
+                                    $(".ren-vip").hide();
+                                    $(".she-nav").hide();
+                                    e.stopPropagation();
+                                })
+                                $(".vip-nav").on("click", function (e) {
+                                    e.stopPropagation();
+                                });
+
+                                $(".ren-cou").on("click", "", function (e) {
+                                    if ($(".ren-vip").css("display") == "none") {
+                                        $(".ren-vip").show();
+                                    } else {
+                                        $(".ren-vip").hide();
+                                    }
+                                    $(document).one("click", function () {
+                                        $(".ren-vip").hide();
+                                    });
+                                    $(".vip-nav").hide();
+                                    $(".she-nav").hide();
+                                    e.stopPropagation();
+                                })
+                                $(".ren-vip").on("click", function (e) {
+                                    e.stopPropagation();
+                                });
+
+                                $(".she-cou").on("click", "", function (e) {
+                                    if ($(".she-nav").css("display") == "none") {
+                                        $(".she-nav").show();
+                                    } else {
+                                        $(".she-nav").hide();
+                                    }
+                                    $(document).one("click", function () {
+                                        $(".she-nav").hide();
+                                    });
+                                    $(".vip-nav").hide();
+                                    $(".ren-vip").hide();
+                                    e.stopPropagation();
+                                })
+                                $(".she-nav").on("click", function (e) {
+                                    e.stopPropagation();
+                                });
+                                //导航点击结束
+                                $(".show-t").click(function () {
+                                    $("#ul-par").hide();
+                                    $("#ul-pap").show();
+                                    $(this).css("color", "#ffb28");
+                                    $(this).prev().css("color", "#333");
+                                })
+
+                                $(".show-m").click(function () {
+                                    $("#ul-par").show();
+                                    $("#ul-pap").hide();
+                                    $(this).css("color", "#ffb28");
+                                    $(this).next().css("color", "#333");
+                                })
+
+
+                                $(".rig-thr").mouseover(function () {
+                                    $(".r-thr").show();
+                                    $(this).find("img").first().attr("src", "/images/index/book.png");
+                                })
+                                $(".rig-thr").mouseout(function () {
+                                    $(".r-thr").hide();
+                                    $(this).find("img").first().attr("src", "/images/img/phone-1.png");
+                                })
+
+                                $(".my-cen").mouseover(function () {
+                                    var src = $(this).find("img").attr("src");
+                                    var news = src.substring(0, 19) + "old.png";
+                                    $(this).find("img").attr("src", news);
+                                })
+                                $(".my-cen").mouseout(function () {
+                                    var src = $(this).find("img").attr("src");
+                                    var news = src.substring(0, 19) + ".png";
+                                    $(this).find("img").attr("src", news);
+                                })
+                            })
+
+                        </script>
+
+                    </ul>
+
+
+                </div>
+            </nav>
+        </header>-->
+
+        <div class="container">
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="es-section course-detail-section clearfix">
+                <div class="course-detail-bottom">
+                    <div class="course-detail-img">
+                        <img class="img-responsive" src="./ClassSchedule/092901d209af123639.jpeg" alt="高级班第三期 ">
+                        <div class="image-overlay"></div>
+                        <div class="course-detail-remask">
+                            <i class="es-icon es-icon-people"></i>
+                            <span class="mhs">2224</span>人加入学习
+                        </div>
+                    </div>
+                    <div class="course-detail-info">
+                        <div class=" mb15 ">
+                            <span class="gray-darker mrm">
+                                <!-- 标题 -->
+                                <h1 class="pirce-num" id="class"></h1>
+                            </span>
+                        </div>
+                        <div class="course-detail-gray  not-activity ">
+                            <!-- <div class="course-detail-content">
+                              <span class="course-detail-title vertical-middle mb10">课时数</span>
+                              <ul class="nav nav-pills nav-pills-sm nav-pills-transparent course-detail-nav">
+                                <li class="mb10 mr10  active ">
+                                  <a>30</a>
+                                  <i class="es-icon es-icon-done done-icon"></i>
+                                </li>
+                              </ul>
+                            </div> -->
+                            <div class="mb15 hidden-xs">
+                                <span class="course-detail-title ">学习有效期</span>
+                                <span class="gray-dark mrl">永久有效</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 col-md-8 course-detail-content">
+                    <!-- <section class="es-section">
+                      <div class="nav-btn-tab">
+                        <ul class="nav nav-tabs " role="tablist">
+                          <li role="presentation" id="summary tasks" class="">
+                            <a tag="31.html">介绍</a></li>
+                        </ul>
+                      </div>
+                      <div class="es-piece">
+                        <div class="piece-header">课程介绍</div>
+                        <div class="piece-body p-lg clearfix">
+                          <p>这里是课程介绍</p>
+                        </div>
+                      </div>
+                    </section> -->
+                    <div class="panel panel-default hidden-xs">
+                        <div class="panel-heading ">
+                            <h3 class="panel-title">目录</h3>
+                        </div>
+                        <div class="panel-body">
+                            <div class="course-detail-content">
+                                <ul class="task-list task-list-md task-list-hover">
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-3 col-md-4 course-sidebar">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">授课教师</h3>
+                        </div>
+                        <div class="panel-body">
+                            <div class="media media-default">
+                                <div class="media-left">
+                                    <a class="js-user-card" href="http://www.121665.com/index.php/Home/Course/detail/id/47.html#" data-card-url="/#" data-user-id="4" data-original-title="" title="">
+                                        <img class="avatar-md" src="http://www.121665.com/index.php/Home/Course/detail/id/47.html">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <div class="title">
+                                        <a class="link-dark link-dark" href="http://www.121665.com/index.php/Home/Course/detail/id/47.html">金视</a>
+                                    </div>
+                                    <div class="content">学院高级讲师</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">课程附件</h3>
+                        </div>
+                        <div class="panel-body pt0">
+                            <div class="course-features pl0">
+                                <div class="course-features-item clearfix">
+                                    <div class="media">
+                                        <div class="media-left prm">
+                                            <span class="color-lump bg-primary">
+                                                <i class="es-icon es-icon es-icon-videoclass media-logo"></i>
+                                            </span>
+                                        </div>
+                                        <div class="media-body media-middle">视频</div>
+                                    </div>
+                                    <div class="media">
+                                        <div class="media-left prm">
+                                            <span class="color-lump bg-primary">
+                                                <i class="es-icon es-icon es-icon-filedownload media-logo"></i>
+                                            </span>
+                                        </div>
+                                        <div class="media-body media-middle">资料下载</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- 列表内容 -->
+    </div>
+    <div id="login-modal" class="modal" data-url="/login/ajax"></div>
+    <div id="modal" class="modal"></div>
+    <div id="attachment-modal" class="modal"></div>
+    <script src="./ClassSchedule/translator.min-8.0.17.js"></script>
+    <script src="./ClassSchedule/js"></script>
+    <script src="./ClassSchedule/vendor-8.0.17.js"></script>
+    <script src="./ClassSchedule/common-8.0.17.js"></script>
+    <script src="./ClassSchedule/main-8.0.17.js"></script>
+    <script src="./ClassSchedule/main-8.0.17(2).js"></script>
+    <script src="./ClassSchedule/jquery.easypiechart-8.0.17.js"></script>
+    <script src="./ClassSchedule/excanvas-compiled-8.0.17.js"></script>
+    <script src="./ClassSchedule/echo-js-8.0.17.js"></script>
+    <script src="./ClassSchedule/jquery-countdown-8.0.17.js"></script>
+    <script src="./ClassSchedule/index-8.0.17.js"></script>
+    <script src="./ClassSchedule/index-8.0.17(1).js"></script>
+    <script src="./ClassSchedule/index-8.0.17(2).js"></script>
+    <script src="./ClassSchedule/index-8.0.17(3).js"></script>
+    <script src="./ClassSchedule/perfect-scrollbar-8.0.17.js"></script>
+    <script src="./ClassSchedule/index-8.0.17(4).js"></script>
+    <script type="text/javascript">
+
+        $(".item_box_hidding li").click(function () {
+            var index = $(this).index();
+            $(this).find("a").addClass("on");
+            $(this).siblings().find("a").removeClass("on");
+            $(".carousel-inner .lbitem").hide().eq(index).show();
+        })
+
+        $('#check_bank').on('click', function () {
+            $('.pay-center .check_bank .icon').css('display', "block");
+            $('.pay-center .check_alipay .icon').css('display', "none");
+            $('.pay-center .check_bank .icon').before("<input type='hidden' value='huifubao' name='payname' class='huifubao'>");
+        });
+
+        $('#check_alipay').on('click', function () {
+            $('.pay-center .check_bank .icon').css('display', "none");
+            $('.pay-center .check_alipay .icon').css('display', "block");
+            $('.huifubao').remove();
+            //$('.pay-center .check_bank .icon').remove("<input type='hidden' value='huifubao' name='payment'>");
+        });
+
+    </script>
+    <script type="text/javascript">
+        $('.mystyle').mouseover(function () {
+            $(this).css('color', '#fff');
+        });
+        $('.mystyle').mouseout(function () {
+            $(this).css('color', '#e7e7e7');
+        });
+        $('.bot-know span').mouseover(function () {
+            $(this).css('background-color', '#2191C4');
+        });
+        $('.bot-know span').mouseout(function () {
+            $(this).css('background-color', '#2BA6DE');
+        });
+
+
+    </script>
+
+</body>
+</html>
