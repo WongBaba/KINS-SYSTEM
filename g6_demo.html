@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="../../static/js/plug_js/vue.js"></script> -->
+    <script src="https://gw.alipayobjects.com/os/antv/pkg/_antv.g6-3.7.0/dist/g6.min.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    #app {
+        background-color: #fff !important;
+    }
+
+    #app .container {
+        margin: 10px;
+        background-color: #333;
+        position: relative;
+    }
+
+    .g6-component-tooltip {
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 0px 10px 24px 10px;
+        color: #fff;
+        box-shadow: rgb(114, 97, 97) 0px 0px 10px;
+        border: 0px;
+        border-radius: 4px;
+    }
+</style>
+
+<body>
+    <div id="app">
+        <div class="container" id="mount_node"></div>
+        <div class="container" id="mount_node_"></div>
+    </div>
+    <script>
+        data = {
+            "id": "Modeling Methods",
+            "label": "根节点",
+            'style': { 'fill': 'r(0.5,0.5,0.5) 0:#ffffff 0.5:#7ec2f3 1:#1890ff' },
+            "children": [
+                {
+                    "id": "Classification",
+                    "label": "7777",
+                    "children": [
+                        { "id": "Logistic regression" },
+                        {
+                            "id": "Linear discriminant analysis",
+                            "label": "7777",
+                            "children": [
+                                { "id": "Logistic regression1" },
+                                {
+                                    "id": "Linear discriminant analysis1",
+                                    "label": "7777",
+                                    "children": [
+                                        { "id": "Logistic regression11" },
+                                        { "id": "Linear discriminant analysis11" },
+                                    ]
+                                },
+                            ]
+                        },
+                    ]
+                },
+                {
+                    "id": "Consensus",
+                    "label": "7777",
+                    "children": [
+                        {
+                            "id": "Models diversity",
+                            "label": "7777",
+                            "children": [
+                                { "id": "Different initializations" },
+                                { "id": "Different parameter choices" },
+                            ]
+                        },
+                        {
+                            "id": "Methods",
+                            "label": "7777",
+                            "children": [
+                                { "id": "Classifier selection" },
+                                { "id": "Classifier fusion" }
+                            ]
+                        },
+                        {
+                            "id": "Common",
+                            "label": "7777",
+                            "children": [
+                                { "id": "Bagging" },
+                                { "id": "Boosting" },
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "Regression",
+                    "label": "7777",
+                    "children": [
+                        {
+                            "id": "Multiple linear regression",
+                            "label": "7777",
+                            "children": [
+                                {
+                                    "id": "Logistic regression4",
+                                    "label": "7777",
+                                    "children": [
+                                        { "id": "Logistic regression41" },
+                                        {
+                                            "id": "Linear discriminant analysis42",
+                                            "label": "7777",
+                                            "children": [
+                                                { "id": "Logistic regression411" },
+                                                { "id": "Linear discriminant analysis412" },
+                                            ]
+                                        },
+                                    ]
+                                },
+                                { "id": "Linear discriminant analysis4" },
+                            ]
+                        },
+                        { "id": "Partial least squares" },
+                    ]
+                }
+            ]
+        }
+
+        G6.registerEdge('circle-running', {
+            afterDraw(cfg, group) {
+                // get the first shape in the group, it is the edge's path here=
+                const shape = group.get('children')[0];
+                // the start position of the edge's path
+                const startPoint = shape.getPoint(0);
+
+                // add red circle shape
+                const circle = group.addShape('circle', {
+                    attrs: {
+                        x: startPoint.x,
+                        y: startPoint.y,
+                        fill: '#1890ff',
+                        r: 3,
+                    },
+                    name: 'circle-shape',
+                });
+
+                // animation for the red circle
+                circle.animate(
+                    ratio => {
+                        // the operations in each frame. Ratio ranges from 0 to 1 indicating the prograss of the animation. Returns the modified configurations
+                        // get the position on the edge according to the ratio
+                        const tmpPoint = shape.getPoint(ratio);
+                        // returns the modified configurations here, x and y here
+                        return {
+                            x: tmpPoint.x,
+                            y: tmpPoint.y,
+                        };
+                    },
+                    {
+                        repeat: true, // Whether executes the animation repeatly
+                        duration: 3000, // the duration for executing once
+                    },
+                );
+            },
+        },
+            'cubic', // extend the built-in edge 'cubic'
+        );
+        G6.registerNode('breath-node', {
+            afterDraw(cfg, group) {
+                const r = cfg.size / 2;
+                const haloColor = cfg.color || (cfg.style && cfg.style.fill);
+                const back1 = group.addShape('circle', {
+                    zIndex: -2,
+                    attrs: {
+                        x: 0,
+                        y: 0,
+                        r,
+                        fill: haloColor,
+                        opacity: 0.6
+                    }
+                });
+                const back2 = group.addShape('circle', {
+                    zIndex: -1,
+                    attrs: {
+                        x: 0,
+                        y: 0,
+                        r,
+                        fill: haloColor,
+                        opacity: 0.6
+                    }
+                });
+                group.sort(); // 排序，根据zIndex 排序
+                const delayBase = Math.random() * 2000;
+                back1.animate({ // 逐渐放大，并消失
+                    r: r + 30,
+                    opacity: 0.0,
+                    repeat: true // 循环
+                }, {
+                    repeat: true,
+                    duration: 3000,
+                    delay: delayBase,
+                    easing: 'easeCubic'
+                }) // 无延迟
+                back2.animate({ // 逐渐放大，并消失
+                    r: r + 30,
+                    opacity: 0.0,
+                    repeat: true // 循环
+                }, {
+                    repeat: true,
+                    duration: 3000,
+                    delay: delayBase + 1000,
+                    easing: 'easeCubic'
+                }) // 1 秒延迟
+            }
+        }, 'circle');
+        G6.registerEdge('running-cubic', {
+            afterDraw(cfg, group) {
+                const shape = group.get('children')[0];
+                const length = shape.getTotalLength();     // 获取边的总长度
+                const startPoint = shape.getPoint(0);
+                let circleCount = Math.ceil(length / 20);  // 根据边总长度计算该边上的小圆点数量
+                circleCount = circleCount === 0 ? 1 : circleCount;
+                // 生成小圆点
+                for (let i = 0; i < circleCount; i++) {
+                    // 小圆点动画的随机延迟
+                    const delay = Math.random() * 1000;
+                    const start = shape.getPoint(i / circleCount);
+                    // 加入小圆点
+                    const circle = group.addShape('circle', {
+                        attrs: {
+                            x: start.x,
+                            y: start.y,
+                            r: 0.8,
+                            fill: '#A0F3AF',
+                            shadowColor: '#fff',
+                            shadowBlur: 30,
+                        }
+                    });
+                    // 小圆点的动画
+                    circle.animate({
+                        // 动画的每一帧，返回小圆点在该帧的位置，入参 ratio 是 [0, 1] 的比例值
+                        onFrame(ratio) {
+                            ratio += i / circleCount;
+                            if (ratio > 1) {
+                                ratio %= 1;
+                            }
+                            // 根据比例值获取在边上的位置
+                            const tmpPoint = shape.getPoint(ratio);
+                            return {
+                                x: tmpPoint.x,
+                                y: tmpPoint.y
+                            };
+                        },
+                        repeat: true // 循环动画
+                    }, 10 * length, 'easeCubic', null, delay);
+                }
+            }
+        }, 'cubic'); // 继承 cubic 折线
+
+        const tooltip = new G6.Tooltip({
+            // offsetX and offsetY include the padding of the parent container
+            // offsetX 与 offsetY 需要加上父容器的 padding
+            offsetX: 10 + 10,
+            offsetY: 10 + 10,
+            // 允许出现 tooltip 的 item 类型
+            itemTypes: ['node'],
+            // 自定义 tooltip 内容
+            // container: document.getElementById("mount_node"),
+            getContent: e => {
+                const outDiv = document.createElement('div');
+                outDiv.style.width = 160;
+                outDiv.style.height = 100;
+                //outDiv.style.padding = '0px 0px 20px 0px';
+                outDiv.innerHTML = `
+                        <br/>
+                        <ul>
+                            <li>子系统: xxxxxxxxxx(7777)</li>
+                        </ul>
+                        <ul>
+                            <li>直接告警次数: 436</li>
+                            <li>间接告警次数: 266</li>
+                            <li>告警占比: 34%</li>
+                        </ul>`
+                return outDiv
+            },
+        });
+        const width = document.getElementById('mount_node').scrollWidth;
+        const height = document.getElementById('mount_node').scrollHeight || 500;
+        graph = new G6.TreeGraph({
+            container: 'mount_node',
+            width,
+            height,
+            plugins: [tooltip],
+            modes: {
+                default: [
+                    'drag-canvas',
+                    'zoom-canvas',
+                ],
+            },
+            defaultNode: {
+                type: "breath-node",
+                size: 50,
+                anchorPoints: [
+                    [0, 0.5],
+                    [1, 0.5],
+                ],
+                style: {
+                    fill: '#C6E5FF',
+                    stroke: '#5B8FF9',
+                },
+            },
+            defaultEdge: {
+                type: 'running-cubic',
+                size: 1,
+                style: {
+                    // stroke: '#000',
+                    endArrow: true,
+                    lineWidth: 2,
+                    stroke: '#bae7ff',
+                    opacity: 0.4,
+                    lineAppendWidth: 3
+                },
+            },
+            layout: {
+                type: 'compactBox',
+                autoPaint: true,
+                direction: 'LR',
+                getId: function getId(d) {
+                    return d.id;
+                },
+                getHeight: function getHeight() {
+                    return 50;
+                },
+                getWidth: function getWidth() {
+                    return 50;
+                },
+                getVGap: function getVGap() {
+                    return 20;
+                },
+                getHGap: function getHGap() {
+                    return 60;
+                },
+            },
+        });
+
+
+        graph.node(function (node) {
+            return {
+                type: "breath-node",
+                label: '7777',
+                style: {
+                    fill: '#DEE9FF',
+                    stroke: '#5B8FF9',
+                    cursor: 'pointer'
+                },
+                labelCfg: {
+                    style: {
+                        fill: '#000',
+                        fontWeight: 400,
+                        fontSize: 18,
+                        cursor: 'pointer'
+                    },
+                    position: 'center',
+                },
+                size: 50
+            };
+        });
+        graph.data(data);
+        graph.render();
+        graph.fitView();
+    </script>
+</body>
+
+</html>
